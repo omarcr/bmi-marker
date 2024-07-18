@@ -37,12 +37,20 @@ data = data[(data['RIDAGEYR'] >= 18) & (data['BMXWT'].notna()) & (data['BMXHT'].
             (data['DXDTOPF'].notna()) & (data['BMXLEG'].notna()) & (data['BMXARML'].notna()) & 
             (data['BMXARMC'].notna()) & (data['BMXWAIST'].notna()) & (data['BMXHIP'].notna())]
 
+last_col = data.columns[-1]
+data = data[[last_col] + list(data.columns[:-1])]
+data.columns[0]='#DXDTOPF'
+
 # Select the features and target as described in the paper
 features = ['BMXWT', 'BMXHT', 'BMXLEG', 'BMXARML', 'BMXARMC', 'BMXWAIST', 'BMXHIP', 'RIAGENDR', 'RIDAGEYR']
 target = 'DXDTOPF'
 
 # Split the data into training and testing sets
 train, test = train_test_split(data, test_size=0.2, random_state=1)
+data.to_csv('data_bmi_marker.csv', index=False ,sep=';')
+print(data)
+train.to_csv('train_bmi_marker.csv', index=False,sep=';')
+test.to_csv('test_bmi_marker.csv', index=False,sep=';')
 
 # Define a function to train and evaluate a model
 def train_and_evaluate(train, test, features, target):
