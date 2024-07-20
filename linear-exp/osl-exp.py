@@ -29,24 +29,25 @@ data = data.rename(columns={
     'BMXARMC': 'BMXARMC', # Arm Circumference (cm)
     'BMXWAIST': 'BMXWAIST', # Waist Circumference (cm)
     'BMXHIP': 'BMXHIP', # Hip Circumference (cm)
-    'DXDTOPF': 'DXDTOPF' # Total Body Fat %
+    'DXDTOPF': '#DXDTOPF' # Total Body Fat %
 })
-
+data2=data
 # Filter the data based on the criteria in the paper
 data = data[(data['RIDAGEYR'] >= 18) & (data['BMXWT'].notna()) & (data['BMXHT'].notna()) & 
-            (data['DXDTOPF'].notna()) & (data['BMXLEG'].notna()) & (data['BMXARML'].notna()) & 
+            (data['#DXDTOPF'].notna()) & (data['BMXLEG'].notna()) & (data['BMXARML'].notna()) & 
             (data['BMXARMC'].notna()) & (data['BMXWAIST'].notna()) & (data['BMXHIP'].notna())]
-data.rename(columns = {'DXDTOPF':'#DXDTOPF'}, inplace = False)
-last_col = data.columns[-1]
-data = data[[last_col] + list(data.columns[:-1])]
+featuresge = ['#DXDTOPF','BMXWT', 'BMXHT', 'BMXLEG', 'BMXARML', 'BMXARMC', 'BMXWAIST', 'BMXHIP', 'RIAGENDR', 'RIDAGEYR']
+
+datage=data[featuresge]
+print(datage.head(2))
 
 # Select the features and target as described in the paper
 features = ['BMXWT', 'BMXHT', 'BMXLEG', 'BMXARML', 'BMXARMC', 'BMXWAIST', 'BMXHIP', 'RIAGENDR', 'RIDAGEYR']
-target = 'DXDTOPF'
+target = '#DXDTOPF'
 
 # Split the data into training and testing sets
-train, test = train_test_split(data, test_size=0.2, random_state=1)
-data.to_csv('data_bmi_marker.csv', index=False ,sep=';')
+train, test = train_test_split(datage, test_size=0.2, random_state=1)
+datage.to_csv('data_bmi_marker.csv', index=False ,sep=';')
 print(data)
 train.to_csv('train_bmi_marker.csv', index=False,sep=';')
 test.to_csv('test_bmi_marker.csv', index=False,sep=';')
