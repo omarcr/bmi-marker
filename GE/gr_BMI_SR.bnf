@@ -2,7 +2,7 @@
 
 <expr> ::= <expr> <op> <expr> | <expr> <op> <expr> | <expr> <op> <var> | <var> <op> <var>|  <cte> <op> <expr> |<cte> <op> <var>
 
-<op> ::= +|-|*
+<op> ::= +|-|*|/
 
 <var> ::= getVariable(1,k)|getVariable(2,k)|getVariable(3,k)|getVariable(4,k)|getVariable(5,k)|getVariable(6,k)|getVariable(7,k)|getVariable(8,k)|getVariable(9,k)
 
