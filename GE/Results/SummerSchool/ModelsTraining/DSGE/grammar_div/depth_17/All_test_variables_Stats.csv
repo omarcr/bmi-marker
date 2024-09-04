@@ -1,0 +1,12 @@
+getVariable(9,k);0.1111;
+getVariable(5,k);0.6667;
+getVariable(8,k);1.0;
+getVariable(2,k);0.6667;
+getVariable(7,k);0.8889;
+getVariable(6,k);0.8889;
+getVariable(1,k);0.7778;
+getVariable(4,k);0.8889;
+getVariable(3,k);0.3333;
+getVariable(9,k);getVariable(5,k);getVariable(8,k);getVariable(2,k);getVariable(7,k);getVariable(6,k);getVariable(1,k);getVariable(4,k);getVariable(3,k);
+0.1111111111111111;0.6666666666666666;1.0;0.6666666666666666;0.8888888888888888;0.8888888888888888;0.7777777777777778;0.8888888888888888;0.3333333333333333;/Volumes/T7/SummerSchool/Data/training/bmi_marker.csv
+

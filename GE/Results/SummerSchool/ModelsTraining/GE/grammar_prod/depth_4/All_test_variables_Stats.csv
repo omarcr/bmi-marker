@@ -1,0 +1,12 @@
+getVariable(9,k);0.2;
+getVariable(5,k);0.6;
+getVariable(8,k);0.7;
+getVariable(2,k);0.4;
+getVariable(7,k);0.9;
+getVariable(1,k);0.4;
+getVariable(6,k);0.3;
+getVariable(4,k);0.5;
+getVariable(3,k);0.3;
+getVariable(9,k);getVariable(5,k);getVariable(8,k);getVariable(2,k);getVariable(7,k);getVariable(1,k);getVariable(6,k);getVariable(4,k);getVariable(3,k);
+0.2;0.6;0.7;0.4;0.9;0.4;0.3;0.5;0.3;/Volumes/T7/SummerSchool/Data/training/bmi_marker.csv
+
