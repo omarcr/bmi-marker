@@ -1,0 +1,12 @@
+getVariable(9,k);0.5;
+getVariable(5,k);0.5;
+getVariable(8,k);1.0;
+getVariable(2,k);0.8;
+getVariable(7,k);0.8;
+getVariable(6,k);0.7;
+getVariable(1,k);0.3;
+getVariable(3,k);0.3;
+getVariable(4,k);0.6;
+getVariable(9,k);getVariable(5,k);getVariable(8,k);getVariable(2,k);getVariable(7,k);getVariable(6,k);getVariable(1,k);getVariable(3,k);getVariable(4,k);
+0.5;0.5;1.0;0.8;0.8;0.7;0.3;0.3;0.6;/Users/hidalgo/GitHub/bmi-marker/GE/Data/test_bmi_marker.csv
+
