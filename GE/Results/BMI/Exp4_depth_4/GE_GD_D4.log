@@ -1,0 +1,1262 @@
+{MutationProb=0.05, Executions=10, ChangeProbabilityDynamic=0.25, TrainingPath=/home/turing/Downloads/PMT-20240830T203755Z-001/PMT_1/Data/train_bmi_marker.csv, MutationTypeDynamic=All genes, GrammaticalEvolutionType=0, Objectives=0, ClassPathSeparator=:, TestPath=/Users/hidalgo/GitHub/bmi-marker/linear-exp/test_bmi_marker.csv, NumGenerations=1000, NumIndividuals=1024, RealDataCopied=0, ErrorThreshold=0.0, TypeOfDepthForDynamicSGE=0, ChromosomeLength=100, TournamentSize=5, ModelWidth=0, BnfPathFile=/home/turing/Downloads/PMT-20240830T203755Z-001/PMT_1/exp_lydia_grammar_div/gr_BMI_SR.bnf, LoggerLevel=INFO, LoggerBasePath=/home/turing/Downloads/PMT-20240830T203755Z-001/PMT_1/work, ViewResults=false, CrossoverTypeDynamic=Uniform, AlgorithmType=1, LogPopulation=0, CrossoverProb=0.9, MaxTreeDepth=14, WorkDir=/home/turing/Downloads/PMT-20240830T203755Z-001/PMT_1, NormalizeData=false, MaxWraps=4}
+Aug 31, 2024 6:30:53 AM data.NormalizedDataTable <init>
+INFO: Reading data file ...
+
+Detecting file format ...
+
+Aug 31, 2024 6:30:53 AM data.NormalizedDataTable <init>
+INFO: ... done.
+jeco.core.algorithm.ga.StaticSimpleGeneticAlgorithm@680a9f5f
+algorithm.GramEvalTemporalModel@66cd7c2e
+
+Run #0
+========
+Aug 31, 2024 6:30:53 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=132.79118288412369; Expression=89*Math.pow(10,-6)/21*Math.pow(10,+2)+u2(k)-u8(k); Java Expression: 89*Math.pow(10,-6)/21*Math.pow(10,+2)+getVariable(2,k)-getVariable(8,k)
+Aug 31, 2024 6:30:53 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=33.69376879323826; Expression=16*Math.pow(10,-3)*u9(k); Java Expression: 16*Math.pow(10,-3)*getVariable(9,k)
+Aug 31, 2024 6:30:53 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=26.877856402024374; Expression=72*Math.pow(10,-8)-u3(k)+u6(k); Java Expression: 72*Math.pow(10,-8)-getVariable(3,k)+getVariable(6,k)
+Aug 31, 2024 6:30:53 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=19.115505879688893; Expression=u1(k)-u3(k); Java Expression: getVariable(1,k)-getVariable(3,k)
+Aug 31, 2024 6:30:53 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=10.731668056345766; Expression=u8(k)+u4(k); Java Expression: getVariable(8,k)+getVariable(4,k)
+Aug 31, 2024 6:30:53 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.533109410195136; Expression=u2(k)/u1(k)+u5(k); Java Expression: getVariable(2,k)/getVariable(1,k)+getVariable(5,k)
+Aug 31, 2024 6:30:53 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u5(k)+u8(k); Java Expression: getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 6:30:55 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.017897775618486; Expression=u8(k)-u5(k)+80*Math.pow(10,-4)*u3(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)+80*Math.pow(10,-4)*getVariable(3,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:30:56 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.983596851900782; Expression=u8(k)-u5(k)-80*Math.pow(10,-4)*u3(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)-80*Math.pow(10,-4)*getVariable(3,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:30:56 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.971817381978827; Expression=u8(k)-u5(k)-80*Math.pow(10,-4)*u5(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)-80*Math.pow(10,-4)*getVariable(5,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:30:57 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.94632238593759; Expression=u8(k)-u5(k)-80*Math.pow(10,-4)*u7(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)-80*Math.pow(10,-4)*getVariable(7,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:30:59 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.922728631449345; Expression=u8(k)-u5(k)-80*Math.pow(10,-4)*u1(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)-80*Math.pow(10,-4)*getVariable(1,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:31:00 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.557367098854331; Expression=u8(k)-u5(k)*99*Math.pow(10,-4)*u7(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)*99*Math.pow(10,-4)*getVariable(7,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:31:02 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.30569411386972; Expression=u8(k)-u5(k)*92*Math.pow(10,-4)*u7(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)*92*Math.pow(10,-4)*getVariable(7,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:31:08 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.267938621937782; Expression=u8(k)-u5(k)*93*Math.pow(10,-4)*u7(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)*93*Math.pow(10,-4)*getVariable(7,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:31:08 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.255018848137024; Expression=u8(k)-u5(k)*94*Math.pow(10,-4)*u7(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)*94*Math.pow(10,-4)*getVariable(7,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:31:15 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 5.255018848137024 -->> Avg.: 2.868080643313351E14 -->> Std. Dev.: 4.0357610638853365E15
+Aug 31, 2024 6:31:25 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.207347473441433; Expression=u8(k)-u7(k)*29*Math.pow(10,-4)*u7(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(7,k)*29*Math.pow(10,-4)*getVariable(7,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:31:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.126439524240469; Expression=u8(k)-u7(k)*30*Math.pow(10,-4)*u7(k)-u3(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(7,k)*30*Math.pow(10,-4)*getVariable(7,k)-getVariable(3,k)+getVariable(7,k)
+Aug 31, 2024 6:31:45 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 5.126439524240469 -->> Avg.: 570663.7810827373 -->> Std. Dev.: 3132346.3843836407
+Aug 31, 2024 6:32:18 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 5.126439524240469 -->> Avg.: 153.5663697041976 -->> Std. Dev.: 559.7107269915921
+Aug 31, 2024 6:32:52 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 5.126439524240469 -->> Avg.: 11.61138555947126 -->> Std. Dev.: 12.79612497019538
+Aug 31, 2024 6:33:25 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 5.126439524240469 -->> Avg.: 5.527811612311985 -->> Std. Dev.: 1.5699267233085372
+Aug 31, 2024 6:33:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.126439510272633; Expression=u8(k)-u7(k)*30*Math.pow(10,-4)*u7(k)-61*Math.pow(10,-8)+u7(k)-u3(k); Java Expression: getVariable(8,k)-getVariable(7,k)*30*Math.pow(10,-4)*getVariable(7,k)-61*Math.pow(10,-8)+getVariable(7,k)-getVariable(3,k)
+Aug 31, 2024 6:33:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.126439501800376; Expression=u8(k)-u7(k)*30*Math.pow(10,-4)*u7(k)-98*Math.pow(10,-8)+u7(k)-u3(k); Java Expression: getVariable(8,k)-getVariable(7,k)*30*Math.pow(10,-4)*getVariable(7,k)-98*Math.pow(10,-8)+getVariable(7,k)-getVariable(3,k)
+Aug 31, 2024 6:33:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.126425592641413; Expression=u8(k)-u7(k)*30*Math.pow(10,-4)*u7(k)-61*Math.pow(10,-5)+u7(k)-u3(k); Java Expression: getVariable(8,k)-getVariable(7,k)*30*Math.pow(10,-4)*getVariable(7,k)-61*Math.pow(10,-5)+getVariable(7,k)-getVariable(3,k)
+Aug 31, 2024 6:33:32 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.108536698652919; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)-61*Math.pow(10,-5)+u7(k)-20*Math.pow(10,-2)*u7(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)-61*Math.pow(10,-5)+getVariable(7,k)-20*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 6:33:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.108520971755102; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)-34*Math.pow(10,-5)+u7(k)-20*Math.pow(10,-2)*u7(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)-34*Math.pow(10,-5)+getVariable(7,k)-20*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 6:33:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.108504735568258; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)-61*Math.pow(10,-6)+u7(k)-20*Math.pow(10,-2)*u7(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)-61*Math.pow(10,-6)+getVariable(7,k)-20*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 6:33:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.108504677401355; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)-6*Math.pow(10,-5)+u7(k)-20*Math.pow(10,-2)*u7(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)-6*Math.pow(10,-5)+getVariable(7,k)-20*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 6:33:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.1084814262853815; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+34*Math.pow(10,-5)+u7(k)-20*Math.pow(10,-2)*u7(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+34*Math.pow(10,-5)+getVariable(7,k)-20*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 6:33:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.108304588059247; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+34*Math.pow(10,-4)+u7(k)-20*Math.pow(10,-2)*u7(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+34*Math.pow(10,-4)+getVariable(7,k)-20*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 6:33:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.106636718744753; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+34*Math.pow(10,-3)+u7(k)-20*Math.pow(10,-2)*u7(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+34*Math.pow(10,-3)+getVariable(7,k)-20*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 6:33:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.949698961168316; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)-6*Math.pow(10,-5)+u7(k)-56*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)-6*Math.pow(10,-5)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:33:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.949680862088392; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)-6*Math.pow(10,-9)+u7(k)-56*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)-6*Math.pow(10,-9)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:33:41 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.949578301056627; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+34*Math.pow(10,-5)+u7(k)-56*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+34*Math.pow(10,-5)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:33:41 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.666384024386354; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)-6*Math.pow(10,-5)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)-6*Math.pow(10,-5)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.666374608744297; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+34*Math.pow(10,-5)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+34*Math.pow(10,-5)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.666371321365601; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+48*Math.pow(10,-5)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+48*Math.pow(10,-5)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:44 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.666362185803474; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+87*Math.pow(10,-5)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+87*Math.pow(10,-5)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.666352151020998; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+13*Math.pow(10,-4)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+13*Math.pow(10,-4)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.666303712928069; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+34*Math.pow(10,-4)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+34*Math.pow(10,-4)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:46 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.666271945631207; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+48*Math.pow(10,-4)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+48*Math.pow(10,-4)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:47 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.666262946370495; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+52*Math.pow(10,-4)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+52*Math.pow(10,-4)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:47 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.665446655214652; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+52*Math.pow(10,-3)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+52*Math.pow(10,-3)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:47 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.665142947983459; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+87*Math.pow(10,-3)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+87*Math.pow(10,-3)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:52 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.665129284306335; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+13*Math.pow(10,-2)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+13*Math.pow(10,-2)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:53 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.66512913334237; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+90*Math.pow(10,-3)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+90*Math.pow(10,-3)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:54 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.66511039599561; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+95*Math.pow(10,-3)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+95*Math.pow(10,-3)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:33:55 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.665099264504413; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+99*Math.pow(10,-3)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+99*Math.pow(10,-3)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:34:00 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 4.665099264504413 -->> Avg.: 5.09259666729879 -->> Std. Dev.: 0.1514297671746818
+Aug 31, 2024 6:34:03 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.665086337360338; Expression=u8(k)-u2(k)*30*Math.pow(10,-4)*u7(k)+11*Math.pow(10,-2)+u7(k)-56*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*30*Math.pow(10,-4)*getVariable(7,k)+11*Math.pow(10,-2)+getVariable(7,k)-56*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:34:40 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 4.665086337360338 -->> Avg.: 4.986098728664525 -->> Std. Dev.: 0.21003344804872973
+Aug 31, 2024 6:35:02 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.636293961314002; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+11*Math.pow(10,-2)+u7(k)-42*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+11*Math.pow(10,-2)+getVariable(7,k)-42*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:35:14 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.636074832779764; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+16*Math.pow(10,-2)+u7(k)-42*Math.pow(10,-2)*u4(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+16*Math.pow(10,-2)+getVariable(7,k)-42*Math.pow(10,-2)*getVariable(4,k)
+Aug 31, 2024 6:35:56 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 4.636074832779764 -->> Avg.: 4.892059233031552 -->> Std. Dev.: 0.23280547716626493
+Aug 31, 2024 6:36:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.63482576975681; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+96*Math.pow(10,-2)+u7(k)-42*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+96*Math.pow(10,-2)+getVariable(7,k)-42*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:36:32 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.633416236965075; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+99*Math.pow(10,-2)+u7(k)-42*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+99*Math.pow(10,-2)+getVariable(7,k)-42*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:36:55 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.629432432444827; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+99*Math.pow(10,-2)+u7(k)-41*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+99*Math.pow(10,-2)+getVariable(7,k)-41*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:36:57 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.626287276337308; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+71*Math.pow(10,-2)+u7(k)-41*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+71*Math.pow(10,-2)+getVariable(7,k)-41*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:37:02 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.6257420274898955; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+85*Math.pow(10,-2)+u7(k)-41*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+85*Math.pow(10,-2)+getVariable(7,k)-41*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:37:15 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 4.6257420274898955 -->> Avg.: 4.795655908100817 -->> Std. Dev.: 0.21747236361936853
+Aug 31, 2024 6:37:16 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.625534776302105; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+77*Math.pow(10,-2)+u7(k)-41*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+77*Math.pow(10,-2)+getVariable(7,k)-41*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:37:20 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.625450353054278; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+80*Math.pow(10,-2)+u7(k)-41*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+80*Math.pow(10,-2)+getVariable(7,k)-41*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:37:41 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.622040716997801; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+17*Math.pow(10,-2)+u7(k)-39*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+17*Math.pow(10,-2)+getVariable(7,k)-39*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:37:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.621702297542432; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+16*Math.pow(10,-2)+u7(k)-39*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+16*Math.pow(10,-2)+getVariable(7,k)-39*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:37:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.619226517730497; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+17*Math.pow(10,-4)+u7(k)-39*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+17*Math.pow(10,-4)+getVariable(7,k)-39*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:37:49 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.619221384669577; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+85*Math.pow(10,-4)+u7(k)-39*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+85*Math.pow(10,-4)+getVariable(7,k)-39*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:38:27 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.619221383871251; Expression=u8(k)-u2(k)*33*Math.pow(10,-4)*u7(k)+86*Math.pow(10,-4)+u7(k)-39*Math.pow(10,-2)*u3(k); Java Expression: getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+86*Math.pow(10,-4)+getVariable(7,k)-39*Math.pow(10,-2)*getVariable(3,k)
+Aug 31, 2024 6:38:35 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 4.619221383871251 -->> Avg.: 4.697010249092061 -->> Std. Dev.: 0.14866780454764986
+
+Execution time: 466.197 seconds.
+
+
+
+@@;getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+86*Math.pow(10,-4)+getVariable(7,k)-39*Math.pow(10,-2)*getVariable(3,k)
+
+
+
+Run #1
+========
+Aug 31, 2024 6:38:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=9200005.01915721; Expression=92*Math.pow(10,+5)+u9(k); Java Expression: 92*Math.pow(10,+5)+getVariable(9,k)
+Aug 31, 2024 6:38:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=27.540783305077447; Expression=u7(k)-u6(k); Java Expression: getVariable(7,k)-getVariable(6,k)
+Aug 31, 2024 6:38:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=15.49112340618061; Expression=31*Math.pow(10,+1)/u2(k)+u9(k); Java Expression: 31*Math.pow(10,+1)/getVariable(2,k)+getVariable(9,k)
+Aug 31, 2024 6:38:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=12.30840413736975; Expression=89*Math.pow(10,-9)*u3(k)+u3(k); Java Expression: 89*Math.pow(10,-9)*getVariable(3,k)+getVariable(3,k)
+Aug 31, 2024 6:38:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=10.292142137155219; Expression=29*Math.pow(10,+3)*96*Math.pow(10,-3)/4*Math.pow(10,-8)*76*Math.pow(10,-3)-u7(k)/u2(k)-65*Math.pow(10,-1)+u4(k); Java Expression: 29*Math.pow(10,+3)*96*Math.pow(10,-3)/4*Math.pow(10,-8)*76*Math.pow(10,-3)-getVariable(7,k)/getVariable(2,k)-65*Math.pow(10,-1)+getVariable(4,k)
+Aug 31, 2024 6:38:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.404503934198868; Expression=u5(k)+u1(k)/u6(k); Java Expression: getVariable(5,k)+getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 6:38:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.328818754665928; Expression=94*Math.pow(10,-3)+u5(k); Java Expression: 94*Math.pow(10,-3)+getVariable(5,k)
+Aug 31, 2024 6:38:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.059461641840322; Expression=u5(k)+u8(k)+u8(k); Java Expression: getVariable(5,k)+getVariable(8,k)+getVariable(8,k)
+Aug 31, 2024 6:38:41 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u5(k)+u8(k); Java Expression: getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 6:38:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.545490207838515; Expression=u5(k)+u8(k)*u8(k); Java Expression: getVariable(5,k)+getVariable(8,k)*getVariable(8,k)
+Aug 31, 2024 6:38:47 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.780883602472543; Expression=31*Math.pow(10,-2)*u7(k); Java Expression: 31*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 6:38:57 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.709785324194373; Expression=32*Math.pow(10,-2)*u7(k); Java Expression: 32*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 6:39:42 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 4.851397048407602E12 -->> Std. Dev.: 6.1957827807544336E13
+Aug 31, 2024 6:40:40 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 500048.9546056869 -->> Std. Dev.: 2574673.577934853
+Aug 31, 2024 6:40:54 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 178.0963007879814 -->> Std. Dev.: 626.2665822116635
+Aug 31, 2024 6:41:08 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 13.395248642455412 -->> Std. Dev.: 13.969996233871553
+Aug 31, 2024 6:41:23 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 7.0128063783263235 -->> Std. Dev.: 1.7018761240604405
+Aug 31, 2024 6:41:37 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 6.709785324194373 -->> Std. Dev.: 0.0
+Aug 31, 2024 6:41:51 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 6.709785324194373 -->> Std. Dev.: 0.0
+Aug 31, 2024 6:42:06 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 6.709785324194373 -->> Std. Dev.: 0.0
+Aug 31, 2024 6:42:20 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 6.709785324194373 -->> Std. Dev.: 0.0
+Aug 31, 2024 6:42:35 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 6.709785324194373 -->> Std. Dev.: 0.0
+
+Execution time: 236.504 seconds.
+
+
+
+@@;32*Math.pow(10,-2)*getVariable(7,k)
+
+
+
+Run #2
+========
+Aug 31, 2024 6:42:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=2.2999999870761765E10; Expression=23*Math.pow(10,+9)-u6(k); Java Expression: 23*Math.pow(10,+9)-getVariable(6,k)
+Aug 31, 2024 6:42:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=44.88832750158662; Expression=u6(k)-u7(k)-u8(k); Java Expression: getVariable(6,k)-getVariable(7,k)-getVariable(8,k)
+Aug 31, 2024 6:42:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=34.29179064789607; Expression=82*Math.pow(10,-3)/u9(k); Java Expression: 82*Math.pow(10,-3)/getVariable(9,k)
+Aug 31, 2024 6:42:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=34.285119312286575; Expression=34*Math.pow(10,-2)/u4(k); Java Expression: 34*Math.pow(10,-2)/getVariable(4,k)
+Aug 31, 2024 6:42:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=31.86906534089751; Expression=9*Math.pow(10,-1)+u8(k); Java Expression: 9*Math.pow(10,-1)+getVariable(8,k)
+Aug 31, 2024 6:42:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=9.62757222042398; Expression=76*Math.pow(10,+1)*u8(k)/u3(k)-u2(k)/24*Math.pow(10,-1)+u5(k)-u5(k); Java Expression: 76*Math.pow(10,+1)*getVariable(8,k)/getVariable(3,k)-getVariable(2,k)/24*Math.pow(10,-1)+getVariable(5,k)-getVariable(5,k)
+Aug 31, 2024 6:42:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u8(k)+u5(k); Java Expression: getVariable(8,k)+getVariable(5,k)
+Aug 31, 2024 6:42:37 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.615354561892374; Expression=26*Math.pow(10,-4)*u7(k)*u7(k)+u9(k)/u9(k); Java Expression: 26*Math.pow(10,-4)*getVariable(7,k)*getVariable(7,k)+getVariable(9,k)/getVariable(9,k)
+Aug 31, 2024 6:42:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.256201890817836; Expression=26*Math.pow(10,-4)*u7(k)*u7(k)+u7(k)/u9(k); Java Expression: 26*Math.pow(10,-4)*getVariable(7,k)*getVariable(7,k)+getVariable(7,k)/getVariable(9,k)
+Aug 31, 2024 6:42:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.977913952635274; Expression=26*Math.pow(10,-4)*u7(k)*u7(k)+u7(k)/u4(k); Java Expression: 26*Math.pow(10,-4)*getVariable(7,k)*getVariable(7,k)+getVariable(7,k)/getVariable(4,k)
+Aug 31, 2024 6:42:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.058143099562467; Expression=u7(k)-u4(k)-u5(k)-u6(k)/u6(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(4,k)-getVariable(5,k)-getVariable(6,k)/getVariable(6,k)*getVariable(8,k)
+Aug 31, 2024 6:42:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.033626085730339; Expression=u7(k)-u4(k)-u5(k)-u4(k)/u6(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(4,k)-getVariable(5,k)-getVariable(4,k)/getVariable(6,k)*getVariable(8,k)
+Aug 31, 2024 6:42:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.003028140009325; Expression=u7(k)-u4(k)-u5(k)-u4(k)/u6(k)/u8(k); Java Expression: getVariable(7,k)-getVariable(4,k)-getVariable(5,k)-getVariable(4,k)/getVariable(6,k)/getVariable(8,k)
+Aug 31, 2024 6:42:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.960516796628499; Expression=u7(k)-u4(k)-u5(k)-u1(k)/u6(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(4,k)-getVariable(5,k)-getVariable(1,k)/getVariable(6,k)*getVariable(8,k)
+Aug 31, 2024 6:42:41 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.90438215761342; Expression=u7(k)-u4(k)-u5(k)-u1(k)/u6(k)/u8(k); Java Expression: getVariable(7,k)-getVariable(4,k)-getVariable(5,k)-getVariable(1,k)/getVariable(6,k)/getVariable(8,k)
+Aug 31, 2024 6:42:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.759451628126511; Expression=u7(k)-u4(k)-u5(k)-u1(k)/u5(k)/u8(k); Java Expression: getVariable(7,k)-getVariable(4,k)-getVariable(5,k)-getVariable(1,k)/getVariable(5,k)/getVariable(8,k)
+Aug 31, 2024 6:42:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.740012437898571; Expression=u7(k)-u4(k)-u5(k)-u1(k)/u4(k)/u8(k); Java Expression: getVariable(7,k)-getVariable(4,k)-getVariable(5,k)-getVariable(1,k)/getVariable(4,k)/getVariable(8,k)
+Aug 31, 2024 6:42:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.725273484928131; Expression=u7(k)-u4(k)-u5(k)-u1(k)/u4(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(4,k)-getVariable(5,k)-getVariable(1,k)/getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:42:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.672883778061564; Expression=u7(k)-u4(k)-u5(k)-u1(k)/u9(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(4,k)-getVariable(5,k)-getVariable(1,k)/getVariable(9,k)+getVariable(8,k)
+Aug 31, 2024 6:42:54 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.672883778061563; Expression=u7(k)-u5(k)-u4(k)-u1(k)/u9(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)+getVariable(8,k)
+Aug 31, 2024 6:42:59 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 5.672883778061563 -->> Avg.: 3.633150432454938E10 -->> Std. Dev.: 3.5830807224926166E11
+Aug 31, 2024 6:43:03 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.672883778061562; Expression=u8(k)-u5(k)-u4(k)-u1(k)/u9(k)+u7(k); Java Expression: getVariable(8,k)-getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)+getVariable(7,k)
+Aug 31, 2024 6:43:29 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 5.672883778061562 -->> Avg.: 142466.1287013155 -->> Std. Dev.: 725124.9160855529
+Aug 31, 2024 6:44:02 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 5.672883778061562 -->> Avg.: 75.98477946313149 -->> Std. Dev.: 250.2546029574297
+Aug 31, 2024 6:44:55 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 5.672883778061562 -->> Avg.: 11.294402136592302 -->> Std. Dev.: 11.063530699823907
+Aug 31, 2024 6:45:46 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 5.672883778061562 -->> Avg.: 5.924556276423502 -->> Std. Dev.: 1.114661381855984
+Aug 31, 2024 6:46:20 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 5.672883778061562 -->> Avg.: 5.672883778061562 -->> Std. Dev.: 2.0033445777033467E-16
+Aug 31, 2024 6:46:55 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 5.672883778061562 -->> Avg.: 5.672883778061562 -->> Std. Dev.: 0.0
+Aug 31, 2024 6:47:30 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 5.672883778061562 -->> Avg.: 5.672883778061562 -->> Std. Dev.: 0.0
+Aug 31, 2024 6:48:05 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 5.672883778061562 -->> Avg.: 5.672883778061562 -->> Std. Dev.: 0.0
+Aug 31, 2024 6:48:40 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 5.672883778061562 -->> Avg.: 5.672883778061562 -->> Std. Dev.: 0.0
+
+Execution time: 366.293 seconds.
+
+
+
+@@;getVariable(8,k)-getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)+getVariable(7,k)
+
+
+
+Run #3
+========
+Aug 31, 2024 6:48:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=19.977555564351288; Expression=u6(k)-u1(k); Java Expression: getVariable(6,k)-getVariable(1,k)
+Aug 31, 2024 6:48:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=15.55622945041116; Expression=u7(k)-u1(k); Java Expression: getVariable(7,k)-getVariable(1,k)
+Aug 31, 2024 6:48:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=14.88443166302703; Expression=u3(k)+u3(k)-u4(k); Java Expression: getVariable(3,k)+getVariable(3,k)-getVariable(4,k)
+Aug 31, 2024 6:48:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u5(k)+u8(k); Java Expression: getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 6:48:44 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.0775088326884195; Expression=37*Math.pow(10,-5)+u7(k)-u4(k)-u5(k); Java Expression: 37*Math.pow(10,-5)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:48:44 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427569171993; Expression=37*Math.pow(10,-8)+u7(k)-u4(k)-u5(k); Java Expression: 37*Math.pow(10,-8)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:48:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427509820049; Expression=10*Math.pow(10,-8)+u7(k)-u4(k)-u5(k); Java Expression: 10*Math.pow(10,-8)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:48:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427492234289; Expression=2*Math.pow(10,-8)+u7(k)-u4(k)-u5(k); Java Expression: 2*Math.pow(10,-8)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:48:46 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427488277491; Expression=2*Math.pow(10,-9)+u7(k)-u4(k)-u5(k); Java Expression: 2*Math.pow(10,-9)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:48:46 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.0774274880576815; Expression=1*Math.pow(10,-9)+u7(k)-u4(k)-u5(k); Java Expression: 1*Math.pow(10,-9)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:48:47 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427487837858; Expression=u2(k)-u5(k)+u7(k)-u4(k)-u2(k); Java Expression: getVariable(2,k)-getVariable(5,k)+getVariable(7,k)-getVariable(4,k)-getVariable(2,k)
+Aug 31, 2024 6:48:55 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.5259544870879775; Expression=33*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+23*Math.pow(10,+1)/u4(k)-u4(k); Java Expression: 33*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+23*Math.pow(10,+1)/getVariable(4,k)-getVariable(4,k)
+Aug 31, 2024 6:48:56 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.405082048240534; Expression=33*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+23*Math.pow(10,+1)/u5(k)-u4(k); Java Expression: 33*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+23*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 6:49:00 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.4050820482405335; Expression=33*Math.pow(10,+4)/54*Math.pow(10,-4)*u7(k)+23*Math.pow(10,+1)/u5(k)-u4(k); Java Expression: 33*Math.pow(10,+4)/54*Math.pow(10,-4)*getVariable(7,k)+23*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 6:49:01 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.3690465708587345; Expression=33*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+20*Math.pow(10,+1)/u5(k)-u4(k); Java Expression: 33*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+20*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 6:49:02 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.362702991659026; Expression=33*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+21*Math.pow(10,+1)/u5(k)-u4(k); Java Expression: 33*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+21*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 6:49:04 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 5.362702991659026 -->> Avg.: 1.03529114614945971E18 -->> Std. Dev.: 2.3893615662925693E19
+Aug 31, 2024 6:49:05 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.362702991659025; Expression=33*Math.pow(10,+4)/54*Math.pow(10,-4)*u7(k)+21*Math.pow(10,+1)/u5(k)-u4(k); Java Expression: 33*Math.pow(10,+4)/54*Math.pow(10,-4)*getVariable(7,k)+21*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 6:49:10 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.330859109632953; Expression=32*Math.pow(10,-4)/53*Math.pow(10,+4)*u7(k)+23*Math.pow(10,+1)/u5(k)-u4(k); Java Expression: 32*Math.pow(10,-4)/53*Math.pow(10,+4)*getVariable(7,k)+23*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 6:49:11 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.327188243418949; Expression=32*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+25*Math.pow(10,+1)/u5(k)-u4(k); Java Expression: 32*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+25*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 6:49:13 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.3022980289085915; Expression=32*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+26*Math.pow(10,+1)/u5(k)-u4(k); Java Expression: 32*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+26*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 6:49:14 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.2037945582476315; Expression=33*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+46*Math.pow(10,+1)/u1(k)-u4(k); Java Expression: 33*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+46*Math.pow(10,+1)/getVariable(1,k)-getVariable(4,k)
+Aug 31, 2024 6:49:19 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.196561879260726; Expression=33*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+47*Math.pow(10,+1)/u1(k)-u4(k); Java Expression: 33*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+47*Math.pow(10,+1)/getVariable(1,k)-getVariable(4,k)
+Aug 31, 2024 6:49:21 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.193065920991683; Expression=33*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+49*Math.pow(10,+1)/u1(k)-u4(k); Java Expression: 33*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+49*Math.pow(10,+1)/getVariable(1,k)-getVariable(4,k)
+Aug 31, 2024 6:49:22 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.17354335448919; Expression=33*Math.pow(10,-4)/54*Math.pow(10,+4)*u7(k)+17*Math.pow(10,+1)/u5(k)-u4(k)+u8(k); Java Expression: 33*Math.pow(10,-4)/54*Math.pow(10,+4)*getVariable(7,k)+17*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:49:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.173543354489189; Expression=33*Math.pow(10,+4)/54*Math.pow(10,-4)*u7(k)+17*Math.pow(10,+1)/u5(k)-u4(k)+u8(k); Java Expression: 33*Math.pow(10,+4)/54*Math.pow(10,-4)*getVariable(7,k)+17*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:49:26 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.1637543712320975; Expression=33*Math.pow(10,+4)/54*Math.pow(10,-4)*u7(k)+16*Math.pow(10,+1)/u5(k)-u4(k)+u8(k); Java Expression: 33*Math.pow(10,+4)/54*Math.pow(10,-4)*getVariable(7,k)+16*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:49:32 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 5.1637543712320975 -->> Avg.: 869667.1691987338 -->> Std. Dev.: 5186113.160168809
+Aug 31, 2024 6:49:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.141268949964891; Expression=32*Math.pow(10,-4)/53*Math.pow(10,+4)*u7(k)+17*Math.pow(10,+1)/u5(k)-u4(k)+u8(k); Java Expression: 32*Math.pow(10,-4)/53*Math.pow(10,+4)*getVariable(7,k)+17*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:49:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.127306956284384; Expression=32*Math.pow(10,-4)/53*Math.pow(10,+4)*u7(k)+19*Math.pow(10,+1)/u5(k)-u4(k)+u8(k); Java Expression: 32*Math.pow(10,-4)/53*Math.pow(10,+4)*getVariable(7,k)+19*Math.pow(10,+1)/getVariable(5,k)-getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:49:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.043136349605786; Expression=33*Math.pow(10,+4)/54*Math.pow(10,-4)*u7(k)+41*Math.pow(10,+1)/u1(k)-u4(k)+u8(k); Java Expression: 33*Math.pow(10,+4)/54*Math.pow(10,-4)*getVariable(7,k)+41*Math.pow(10,+1)/getVariable(1,k)-getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:49:44 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.9876524749506705; Expression=32*Math.pow(10,-4)/53*Math.pow(10,+4)*u7(k)+41*Math.pow(10,+1)/u1(k)-u4(k)+u8(k); Java Expression: 32*Math.pow(10,-4)/53*Math.pow(10,+4)*getVariable(7,k)+41*Math.pow(10,+1)/getVariable(1,k)-getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:49:49 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.982963944541933; Expression=32*Math.pow(10,-4)/53*Math.pow(10,+4)*u7(k)+42*Math.pow(10,+1)/u1(k)-u4(k)+u8(k); Java Expression: 32*Math.pow(10,-4)/53*Math.pow(10,+4)*getVariable(7,k)+42*Math.pow(10,+1)/getVariable(1,k)-getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:49:57 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.98209024328437; Expression=32*Math.pow(10,-4)/53*Math.pow(10,+4)*u7(k)+43*Math.pow(10,+1)/u1(k)-u4(k)+u8(k); Java Expression: 32*Math.pow(10,-4)/53*Math.pow(10,+4)*getVariable(7,k)+43*Math.pow(10,+1)/getVariable(1,k)-getVariable(4,k)+getVariable(8,k)
+Aug 31, 2024 6:49:57 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.915325815697356; Expression=32*Math.pow(10,-4)/53*Math.pow(10,+4)*u7(k)+60*Math.pow(10,+1)/u1(k)-u3(k)+u8(k); Java Expression: 32*Math.pow(10,-4)/53*Math.pow(10,+4)*getVariable(7,k)+60*Math.pow(10,+1)/getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 6:50:04 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 4.915325815697356 -->> Avg.: 140.06960369065877 -->> Std. Dev.: 508.6587455895629
+Aug 31, 2024 6:50:09 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.914749975912907; Expression=32*Math.pow(10,-4)/53*Math.pow(10,+4)*u7(k)+61*Math.pow(10,+1)/u1(k)-u3(k)+u8(k); Java Expression: 32*Math.pow(10,-4)/53*Math.pow(10,+4)*getVariable(7,k)+61*Math.pow(10,+1)/getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 6:50:40 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 4.914749975912907 -->> Avg.: 12.241049245512247 -->> Std. Dev.: 14.764747737458471
+Aug 31, 2024 6:51:14 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.911871794068047; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+61*Math.pow(10,+1)/u1(k)-u3(k)+u8(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+61*Math.pow(10,+1)/getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 6:51:16 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 4.911871794068047 -->> Avg.: 5.477589077233751 -->> Std. Dev.: 1.5931581313140555
+Aug 31, 2024 6:51:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.9113841060268; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+62*Math.pow(10,+1)/u1(k)-u3(k)+u8(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+62*Math.pow(10,+1)/getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 6:51:50 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 4.9113841060268 -->> Avg.: 5.011230090984831 -->> Std. Dev.: 0.14918985540972673
+Aug 31, 2024 6:52:25 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 4.9113841060268 -->> Avg.: 4.941158210885123 -->> Std. Dev.: 0.06920737832292158
+Aug 31, 2024 6:52:59 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 4.9113841060268 -->> Avg.: 4.912838266086954 -->> Std. Dev.: 0.00165867741759323
+Aug 31, 2024 6:53:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.910009122114889; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+62*Math.pow(10,+1)/u1(k)-24*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+62*Math.pow(10,+1)/getVariable(1,k)-24*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:53:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.90996893585766; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+62*Math.pow(10,+1)/u1(k)-43*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+62*Math.pow(10,+1)/getVariable(1,k)-43*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:53:33 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 4.90996893585766 -->> Avg.: 4.9121241054515785 -->> Std. Dev.: 0.0013891650712828602
+Aug 31, 2024 6:53:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.909885683667937; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+62*Math.pow(10,+1)/u1(k)-43*Math.pow(10,-6)*62*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+62*Math.pow(10,+1)/getVariable(1,k)-43*Math.pow(10,-6)*62*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:53:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.9098736536062; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+62*Math.pow(10,+1)/u1(k)-43*Math.pow(10,-6)*55*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+62*Math.pow(10,+1)/getVariable(1,k)-43*Math.pow(10,-6)*55*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:53:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.909872701063918; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+62*Math.pow(10,+1)/u1(k)-45*Math.pow(10,-6)*55*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+62*Math.pow(10,+1)/getVariable(1,k)-45*Math.pow(10,-6)*55*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:53:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.909872407203119; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+62*Math.pow(10,+1)/u1(k)-44*Math.pow(10,-6)*55*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+62*Math.pow(10,+1)/getVariable(1,k)-44*Math.pow(10,-6)*55*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:53:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.9098723460672575; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+62*Math.pow(10,+1)/u1(k)-45*Math.pow(10,-6)*54*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+62*Math.pow(10,+1)/getVariable(1,k)-45*Math.pow(10,-6)*54*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:54:00 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.909197351638752; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+63*Math.pow(10,+1)/u1(k)-43*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+63*Math.pow(10,+1)/getVariable(1,k)-43*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:54:01 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.908796965231132; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+63*Math.pow(10,+1)/u1(k)-49*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+63*Math.pow(10,+1)/getVariable(1,k)-49*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:54:02 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.908581371932146; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+63*Math.pow(10,+1)/u1(k)-53*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+63*Math.pow(10,+1)/getVariable(1,k)-53*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:54:04 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.90815531908735; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+63*Math.pow(10,+1)/u1(k)-43*Math.pow(10,-6)*55*Math.pow(10,+5)/1*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+63*Math.pow(10,+1)/getVariable(1,k)-43*Math.pow(10,-6)*55*Math.pow(10,+5)/1*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:54:04 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.908150425463824; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+63*Math.pow(10,+1)/u1(k)-77*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+63*Math.pow(10,+1)/getVariable(1,k)-77*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:54:08 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.908123414525965; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+63*Math.pow(10,+1)/u1(k)-74*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+63*Math.pow(10,+1)/getVariable(1,k)-74*Math.pow(10,-6)*71*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 6:54:09 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 4.908123414525965 -->> Avg.: 4.9111078388145435 -->> Std. Dev.: 9.616468301224393E-4
+Aug 31, 2024 6:54:09 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.908118467711948; Expression=50*Math.pow(10,-4)/83*Math.pow(10,+4)*u7(k)+63*Math.pow(10,+1)/u1(k)-77*Math.pow(10,-6)*66*Math.pow(10,+5)/2*Math.pow(10,-3)+u8(k)-u3(k); Java Expression: 50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+63*Math.pow(10,+1)/getVariable(1,k)-77*Math.pow(10,-6)*66*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+
+Execution time: 328.968 seconds.
+
+
+
+@@;50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+63*Math.pow(10,+1)/getVariable(1,k)-77*Math.pow(10,-6)*66*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)
+
+
+
+Run #4
+========
+Aug 31, 2024 6:54:11 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=33.22053456609988; Expression=39*Math.pow(10,-3)*u6(k)/u9(k)+u5(k)/u5(k); Java Expression: 39*Math.pow(10,-3)*getVariable(6,k)/getVariable(9,k)+getVariable(5,k)/getVariable(5,k)
+Aug 31, 2024 6:54:11 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=12.30844191954585; Expression=78*Math.pow(10,-6)+u3(k); Java Expression: 78*Math.pow(10,-6)+getVariable(3,k)
+Aug 31, 2024 6:54:11 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=12.195678046913491; Expression=u4(k)*u7(k)/u2(k); Java Expression: getVariable(4,k)*getVariable(7,k)/getVariable(2,k)
+Aug 31, 2024 6:54:11 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=10.39832072279312; Expression=79*Math.pow(10,-5)+u4(k); Java Expression: 79*Math.pow(10,-5)+getVariable(4,k)
+Aug 31, 2024 6:54:11 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=10.398031619508144; Expression=93*Math.pow(10,-5)/u2(k)/u9(k)-43*Math.pow(10,-8)+u4(k); Java Expression: 93*Math.pow(10,-5)/getVariable(2,k)/getVariable(9,k)-43*Math.pow(10,-8)+getVariable(4,k)
+Aug 31, 2024 6:54:11 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u5(k)+u8(k); Java Expression: getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 6:54:12 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.23417620284542; Expression=10*Math.pow(10,-3)-u2(k)/34*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: 10*Math.pow(10,-3)-getVariable(2,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:13 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.130581864310229; Expression=10*Math.pow(10,-3)-u8(k)/34*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: 10*Math.pow(10,-3)-getVariable(8,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:13 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.121222710109541; Expression=62*Math.pow(10,-3)-u8(k)/34*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: 62*Math.pow(10,-3)-getVariable(8,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:13 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.119266924896926; Expression=62*Math.pow(10,-3)+u8(k)/34*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: 62*Math.pow(10,-3)+getVariable(8,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:13 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.057757553533044; Expression=62*Math.pow(10,-3)+u2(k)/34*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: 62*Math.pow(10,-3)+getVariable(2,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:14 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.027108307182805; Expression=10*Math.pow(10,-1)-u8(k)/34*Math.pow(10,-3)+u7(k)-u3(k)-u5(k); Java Expression: 10*Math.pow(10,-1)-getVariable(8,k)/34*Math.pow(10,-3)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:14 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.023372042571752; Expression=u4(k)/u4(k)-u6(k)/34*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(4,k)/getVariable(4,k)-getVariable(6,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:15 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.000126168714133; Expression=u3(k)/u4(k)-u6(k)/34*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(3,k)/getVariable(4,k)-getVariable(6,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:15 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.988030503313273; Expression=42*Math.pow(10,-3)-u2(k)/34*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 42*Math.pow(10,-3)-getVariable(2,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:16 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9819458448673934; Expression=42*Math.pow(10,-8)-u2(k)/34*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 42*Math.pow(10,-8)-getVariable(2,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:16 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.971404498072296; Expression=u3(k)/u5(k)-u6(k)/34*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(3,k)/getVariable(5,k)-getVariable(6,k)/34*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.970162423126037; Expression=u3(k)/u5(k)-u6(k)/26*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(3,k)/getVariable(5,k)-getVariable(6,k)/26*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.970034746002674; Expression=u3(k)/u5(k)-u6(k)/24*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(3,k)/getVariable(5,k)-getVariable(6,k)/24*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:19 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.969539591634558; Expression=u3(k)/u5(k)-u7(k)/24*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(3,k)/getVariable(5,k)-getVariable(7,k)/24*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:21 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.955861394877718; Expression=u3(k)/u5(k)-u1(k)/24*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(3,k)/getVariable(5,k)-getVariable(1,k)/24*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.947470455117003; Expression=u3(k)/u5(k)-u1(k)/14*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(3,k)/getVariable(5,k)-getVariable(1,k)/14*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:27 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.917462762334077; Expression=42*Math.pow(10,-8)-u2(k)/15*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 42*Math.pow(10,-8)-getVariable(2,k)/15*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.911068819760031; Expression=88*Math.pow(10,-8)-u2(k)/13*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 88*Math.pow(10,-8)-getVariable(2,k)/13*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.911068812724049; Expression=12*Math.pow(10,-8)-u2(k)/13*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 12*Math.pow(10,-8)-getVariable(2,k)/13*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9110688117242045; Expression=12*Math.pow(10,-9)-u2(k)/13*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 12*Math.pow(10,-9)-getVariable(2,k)/13*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9110688116501375; Expression=4*Math.pow(10,-9)-u2(k)/13*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 4*Math.pow(10,-9)-getVariable(2,k)/13*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.911068811613106; Expression=u3(k)-u4(k)-u2(k)/13*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(3,k)-getVariable(4,k)-getVariable(2,k)/13*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:35 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 5.911068811613106 -->> Avg.: 4.549041281360897E10 -->> Std. Dev.: 4.072768197841104E11
+Aug 31, 2024 6:54:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.909585237085625; Expression=12*Math.pow(10,-8)-u2(k)/12*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 12*Math.pow(10,-8)-getVariable(2,k)/12*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.909585234443548; Expression=42*Math.pow(10,-8)-u2(k)/12*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 42*Math.pow(10,-8)-getVariable(2,k)/12*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.909584182522858; Expression=12*Math.pow(10,-5)-u2(k)/12*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 12*Math.pow(10,-5)-getVariable(2,k)/12*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.907688144813384; Expression=u2(k)/u7(k)-u1(k)/14*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)/14*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.904735350224754; Expression=12*Math.pow(10,-5)-u7(k)/12*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 12*Math.pow(10,-5)-getVariable(7,k)/12*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.904725904191074; Expression=12*Math.pow(10,-9)-u7(k)/12*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 12*Math.pow(10,-9)-getVariable(7,k)/12*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.859256629093046; Expression=12*Math.pow(10,-5)-u7(k)/7*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 12*Math.pow(10,-5)-getVariable(7,k)/7*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.859233596816976; Expression=98*Math.pow(10,-5)-u7(k)/7*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 98*Math.pow(10,-5)-getVariable(7,k)/7*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:41 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.847336964492092; Expression=u2(k)/u1(k)-u1(k)/14*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(2,k)/getVariable(1,k)-getVariable(1,k)/14*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.8451430095614745; Expression=u2(k)/u1(k)-u7(k)/14*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(2,k)/getVariable(1,k)-getVariable(7,k)/14*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.833344111497523; Expression=98*Math.pow(10,-5)-u1(k)/7*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 98*Math.pow(10,-5)-getVariable(1,k)/7*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:44 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.8333332025351625; Expression=66*Math.pow(10,-5)-u1(k)/7*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: 66*Math.pow(10,-5)-getVariable(1,k)/7*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.791562309096512; Expression=u2(k)/u1(k)-u1(k)/8*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(2,k)/getVariable(1,k)-getVariable(1,k)/8*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:49 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.791034198882599; Expression=u2(k)/u1(k)-u1(k)/4*Math.pow(10,-1)+u7(k)-u3(k)-u5(k); Java Expression: getVariable(2,k)/getVariable(1,k)-getVariable(1,k)/4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 6:54:52 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.749013653027117; Expression=u3(k)/u1(k)-u1(k)/4*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: getVariable(3,k)/getVariable(1,k)-getVariable(1,k)/4*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:54:52 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.715684777514322; Expression=u9(k)/u1(k)-u1(k)/4*Math.pow(10,-1)+u7(k)-u4(k)-u5(k); Java Expression: getVariable(9,k)/getVariable(1,k)-getVariable(1,k)/4*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 6:55:07 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 5.715684777514322 -->> Avg.: 200329.8685515143 -->> Std. Dev.: 1013024.0371440091
+Aug 31, 2024 6:55:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.514403826346574; Expression=u9(k)/u1(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u4(k)-u8(k); Java Expression: getVariable(9,k)/getVariable(1,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(8,k)
+Aug 31, 2024 6:55:32 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.463637354954088; Expression=u9(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u4(k)-u8(k); Java Expression: getVariable(9,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(4,k)-getVariable(8,k)
+Aug 31, 2024 6:55:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.381292649921776; Expression=u9(k)/u1(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-u8(k); Java Expression: getVariable(9,k)/getVariable(1,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(8,k)
+Aug 31, 2024 6:55:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.305979823593865; Expression=u9(k)/u5(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-u8(k); Java Expression: getVariable(9,k)/getVariable(5,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(8,k)
+Aug 31, 2024 6:55:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.292650097751789; Expression=u1(k)/u1(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-u8(k); Java Expression: getVariable(1,k)/getVariable(1,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(8,k)
+Aug 31, 2024 6:55:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.271761555160413; Expression=u1(k)/u4(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-u8(k); Java Expression: getVariable(1,k)/getVariable(4,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(8,k)
+Aug 31, 2024 6:55:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.26893812496594; Expression=u2(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-u8(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(8,k)
+Aug 31, 2024 6:55:44 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 5.26893812496594 -->> Avg.: 76.37706155781892 -->> Std. Dev.: 252.6366010244496
+Aug 31, 2024 6:56:16 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.268938124817078; Expression=u2(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-15*Math.pow(10,-9)/19*Math.pow(10,+1)-u8(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-15*Math.pow(10,-9)/19*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:17 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.268938124668212; Expression=u2(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-30*Math.pow(10,-9)/19*Math.pow(10,+1)-u8(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-30*Math.pow(10,-9)/19*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:17 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.268938124494538; Expression=u2(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-15*Math.pow(10,-9)/6*Math.pow(10,+1)-u8(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-15*Math.pow(10,-9)/6*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:17 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.268936636926287; Expression=u2(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-15*Math.pow(10,-9)/19*Math.pow(10,+5)-u8(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-15*Math.pow(10,-9)/19*Math.pow(10,+5)-getVariable(8,k)
+Aug 31, 2024 6:56:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.268040873371546; Expression=u2(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-15*Math.pow(10,-2)/19*Math.pow(10,+1)-u8(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-15*Math.pow(10,-2)/19*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:20 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.268025711831936; Expression=u2(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-15*Math.pow(10,-2)/18*Math.pow(10,+1)-u8(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-15*Math.pow(10,-2)/18*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:22 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 5.268025711831936 -->> Avg.: 11.389820899100094 -->> Std. Dev.: 11.310150422307208
+Aug 31, 2024 6:56:25 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.268014486712203; Expression=u2(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-20*Math.pow(10,-2)/18*Math.pow(10,+1)-u8(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-20*Math.pow(10,-2)/18*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.268004677884572; Expression=u2(k)/u7(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-20*Math.pow(10,-2)/19*Math.pow(10,+1)-u8(k); Java Expression: getVariable(2,k)/getVariable(7,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-20*Math.pow(10,-2)/19*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.235675231297204; Expression=u1(k)/u4(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-97*Math.pow(10,-2)/19*Math.pow(10,+1)-u8(k); Java Expression: getVariable(1,k)/getVariable(4,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-97*Math.pow(10,-2)/19*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.234687856613584; Expression=u1(k)/u4(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-97*Math.pow(10,-2)/17*Math.pow(10,+1)-u8(k); Java Expression: getVariable(1,k)/getVariable(4,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-97*Math.pow(10,-2)/17*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.233623716096562; Expression=u1(k)/u4(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-u7(k)/u2(k)/17*Math.pow(10,+1)-u8(k); Java Expression: getVariable(1,k)/getVariable(4,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(2,k)/17*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:37 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.231691656466868; Expression=u1(k)/u5(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-97*Math.pow(10,-2)/17*Math.pow(10,+1)-u8(k); Java Expression: getVariable(1,k)/getVariable(5,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-97*Math.pow(10,-2)/17*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.224081746526595; Expression=u1(k)/u5(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-97*Math.pow(10,-2)/10*Math.pow(10,+1)-u8(k); Java Expression: getVariable(1,k)/getVariable(5,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-97*Math.pow(10,-2)/10*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.2232093667965085; Expression=u1(k)/u5(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-90*Math.pow(10,-2)/10*Math.pow(10,+1)-u8(k); Java Expression: getVariable(1,k)/getVariable(5,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-90*Math.pow(10,-2)/10*Math.pow(10,+1)-getVariable(8,k)
+Aug 31, 2024 6:56:44 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.194125445544503; Expression=u1(k)/u5(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-u7(k)/u4(k); Java Expression: getVariable(1,k)/getVariable(5,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(4,k)
+Aug 31, 2024 6:56:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.1322030572729656; Expression=u1(k)/u5(k)-u1(k)*4*Math.pow(10,-1)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: getVariable(1,k)/getVariable(5,k)-getVariable(1,k)*4*Math.pow(10,-1)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:57:13 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 5.1322030572729656 -->> Avg.: 5.824941727762998 -->> Std. Dev.: 1.4743114856281474
+Aug 31, 2024 6:57:50 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.117553980593191; Expression=u1(k)/u5(k)-u1(k)*39*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: getVariable(1,k)/getVariable(5,k)-getVariable(1,k)*39*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:57:56 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.103611657558774; Expression=u1(k)/u4(k)-u1(k)*39*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: getVariable(1,k)/getVariable(4,k)-getVariable(1,k)*39*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:58:42 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 5.103611657558774 -->> Avg.: 5.40286398048712 -->> Std. Dev.: 0.2790404928160437
+Aug 31, 2024 6:59:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.090475332415714; Expression=u8(k)/u4(k)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: getVariable(8,k)/getVariable(4,k)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:59:32 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.08651397658767; Expression=8*Math.pow(10,-3)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 8*Math.pow(10,-3)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:59:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.0856816130891085; Expression=8*Math.pow(10,-8)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 8*Math.pow(10,-8)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:59:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.085681611643352; Expression=66*Math.pow(10,-9)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 66*Math.pow(10,-9)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:59:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.085681610817198; Expression=58*Math.pow(10,-9)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 58*Math.pow(10,-9)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:59:44 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.085681608235493; Expression=33*Math.pow(10,-9)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 33*Math.pow(10,-9)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:59:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.085681606170117; Expression=13*Math.pow(10,-9)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 13*Math.pow(10,-9)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:59:46 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.085681606066845; Expression=12*Math.pow(10,-9)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 12*Math.pow(10,-9)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:59:46 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.085681605653775; Expression=8*Math.pow(10,-9)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 8*Math.pow(10,-9)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 6:59:59 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.0856816051374345; Expression=3*Math.pow(10,-9)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 3*Math.pow(10,-9)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:04 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.085681605034161; Expression=2*Math.pow(10,-9)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 2*Math.pow(10,-9)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:06 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.085681604930894; Expression=1*Math.pow(10,-9)-u1(k)*36*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 1*Math.pow(10,-9)-getVariable(1,k)*36*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:11 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 5.085681604930894 -->> Avg.: 5.263106847732934 -->> Std. Dev.: 0.20804376981694986
+Aug 31, 2024 7:00:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.083418307723987; Expression=56*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 56*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:21 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.083250428199003; Expression=60*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 60*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.082495915598436; Expression=79*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 79*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.082383264811514; Expression=82*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 82*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:25 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.0823461075134; Expression=83*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 83*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:25 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.082235814571987; Expression=86*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 86*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:25 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.0819503464597275; Expression=94*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 94*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.081880944701789; Expression=96*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 96*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.0818465386356975; Expression=97*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 97*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.081812329116861; Expression=98*Math.pow(10,-3)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 98*Math.pow(10,-3)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.080821424161647; Expression=13*Math.pow(10,-2)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: 13*Math.pow(10,-2)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.078447875661188; Expression=u4(k)/u2(k)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: getVariable(4,k)/getVariable(2,k)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:37 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.075498901073516; Expression=u9(k)/u7(k)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: getVariable(9,k)/getVariable(7,k)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:37 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.074622328365906; Expression=u3(k)/u2(k)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: getVariable(3,k)/getVariable(2,k)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.07138484437279; Expression=u3(k)/u7(k)-u1(k)*37*Math.pow(10,-2)+u7(k)-u3(k)-u7(k)/u3(k); Java Expression: getVariable(3,k)/getVariable(7,k)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+Aug 31, 2024 7:00:50 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 5.07138484437279 -->> Avg.: 5.153574307471438 -->> Std. Dev.: 0.07701188096128414
+Aug 31, 2024 7:01:32 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 5.07138484437279 -->> Avg.: 5.114989683809941 -->> Std. Dev.: 0.05620792107370529
+Aug 31, 2024 7:02:15 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 5.07138484437279 -->> Avg.: 5.087860246237639 -->> Std. Dev.: 0.020025673278293753
+
+Execution time: 486.96 seconds.
+
+
+
+@@;getVariable(3,k)/getVariable(7,k)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k)
+
+
+
+Run #5
+========
+Aug 31, 2024 7:02:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=68.03475961882009; Expression=24*Math.pow(10,-1)-71*Math.pow(10,-4)+u7(k)/u3(k)-u3(k); Java Expression: 24*Math.pow(10,-1)-71*Math.pow(10,-4)+getVariable(7,k)/getVariable(3,k)-getVariable(3,k)
+Aug 31, 2024 7:02:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=32.22094516224256; Expression=u2(k)/u1(k)-53*Math.pow(10,-8)*58*Math.pow(10,-1)/u8(k)/u8(k); Java Expression: getVariable(2,k)/getVariable(1,k)-53*Math.pow(10,-8)*58*Math.pow(10,-1)/getVariable(8,k)/getVariable(8,k)
+Aug 31, 2024 7:02:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=17.15808521797197; Expression=20*Math.pow(10,+2)/u7(k); Java Expression: 20*Math.pow(10,+2)/getVariable(7,k)
+Aug 31, 2024 7:02:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.329948622537254; Expression=24*Math.pow(10,-3)+u5(k); Java Expression: 24*Math.pow(10,-3)+getVariable(5,k)
+Aug 31, 2024 7:02:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u5(k)+u8(k); Java Expression: getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 7:02:22 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.035461850381408; Expression=55*Math.pow(10,-9)*u7(k)*u5(k)-u7(k)/u1(k)+u5(k)+u8(k); Java Expression: 55*Math.pow(10,-9)*getVariable(7,k)*getVariable(5,k)-getVariable(7,k)/getVariable(1,k)+getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 7:02:22 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.933513364637365; Expression=55*Math.pow(10,-9)*u7(k)*u5(k)-u1(k)/u1(k)+u5(k)+u8(k); Java Expression: 55*Math.pow(10,-9)*getVariable(7,k)*getVariable(5,k)-getVariable(1,k)/getVariable(1,k)+getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 7:02:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.933510533468556; Expression=41*Math.pow(10,-9)*u7(k)*u5(k)-u7(k)/u7(k)+u5(k)+u8(k); Java Expression: 41*Math.pow(10,-9)*getVariable(7,k)*getVariable(5,k)-getVariable(7,k)/getVariable(7,k)+getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 7:02:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.933500162989124; Expression=55*Math.pow(10,-9)*u7(k)*u8(k)-u1(k)/u1(k)+u5(k)+u8(k); Java Expression: 55*Math.pow(10,-9)*getVariable(7,k)*getVariable(8,k)-getVariable(1,k)/getVariable(1,k)+getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 7:02:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.8913931078026; Expression=55*Math.pow(10,-9)*u7(k)*u5(k)-u1(k)/u6(k)+u5(k)+u8(k); Java Expression: 55*Math.pow(10,-9)*getVariable(7,k)*getVariable(5,k)-getVariable(1,k)/getVariable(6,k)+getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 7:02:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.836538823927395; Expression=55*Math.pow(10,-9)*u7(k)*u5(k)-u1(k)/u9(k)+u5(k)+u8(k); Java Expression: 55*Math.pow(10,-9)*getVariable(7,k)*getVariable(5,k)-getVariable(1,k)/getVariable(9,k)+getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 7:02:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.836449103182215; Expression=55*Math.pow(10,-9)*u7(k)*u7(k)-u1(k)/u9(k)+u5(k)+u8(k); Java Expression: 55*Math.pow(10,-9)*getVariable(7,k)*getVariable(7,k)-getVariable(1,k)/getVariable(9,k)+getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 7:02:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427487837859; Expression=u7(k)-u5(k)-u4(k); Java Expression: getVariable(7,k)-getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 7:02:38 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 6.077427487837859 -->> Avg.: 2.118705243358123E10 -->> Std. Dev.: 1.4664348874672113E11
+Aug 31, 2024 7:02:58 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 6.077427487837859 -->> Avg.: 170626.550100253 -->> Std. Dev.: 871208.6357987069
+Aug 31, 2024 7:03:04 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.058143099562466; Expression=u7(k)-u5(k)-u4(k)-u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-getVariable(8,k)
+Aug 31, 2024 7:03:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.992388946502078; Expression=u7(k)-u5(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:03:19 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 5.992388946502078 -->> Avg.: 101.65689492583543 -->> Std. Dev.: 353.16929294171626
+Aug 31, 2024 7:03:43 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 5.992388946502078 -->> Avg.: 12.594113047737157 -->> Std. Dev.: 13.581525960519313
+Aug 31, 2024 7:04:01 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.992227824999188; Expression=u7(k)-u5(k)-98*Math.pow(10,+3)/72*Math.pow(10,-8)*u6(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-98*Math.pow(10,+3)/72*Math.pow(10,-8)*getVariable(6,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:01 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.992210257852104; Expression=u7(k)-u5(k)-98*Math.pow(10,+3)/72*Math.pow(10,-8)*u7(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-98*Math.pow(10,+3)/72*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:02 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9911080723913015; Expression=u7(k)-u5(k)-98*Math.pow(10,+3)/9*Math.pow(10,-8)*u6(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-98*Math.pow(10,+3)/9*Math.pow(10,-8)*getVariable(6,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:02 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.977711770959792; Expression=u7(k)-u5(k)-98*Math.pow(10,+5)/72*Math.pow(10,-8)*u6(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-98*Math.pow(10,+5)/72*Math.pow(10,-8)*getVariable(6,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:02 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9559486429375434; Expression=u7(k)-u5(k)-31*Math.pow(10,+3)/72*Math.pow(10,-5)*u6(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-31*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(6,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:03 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.951448496777699; Expression=u7(k)-u5(k)-69*Math.pow(10,+3)/72*Math.pow(10,-5)*u6(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-69*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(6,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:04 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9504579820031624; Expression=u7(k)-u5(k)-41*Math.pow(10,+6)/72*Math.pow(10,-8)*u6(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-41*Math.pow(10,+6)/72*Math.pow(10,-8)*getVariable(6,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:04 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9479877229764995; Expression=u7(k)-u5(k)-56*Math.pow(10,+3)/72*Math.pow(10,-5)*u6(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-56*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(6,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:04 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9459662022288535; Expression=u7(k)-u5(k)-31*Math.pow(10,+3)/72*Math.pow(10,-5)*u1(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-31*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:05 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.936513426776555; Expression=u7(k)-u5(k)-31*Math.pow(10,+3)/56*Math.pow(10,-5)*u1(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-31*Math.pow(10,+3)/56*Math.pow(10,-5)*getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:05 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.92368880435717; Expression=u7(k)-u5(k)-56*Math.pow(10,+3)/72*Math.pow(10,-5)*u1(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-56*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:05 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.919903137935124; Expression=u7(k)-u5(k)-63*Math.pow(10,+3)/72*Math.pow(10,-5)*u1(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-63*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:06 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.917515639559105; Expression=u7(k)-u5(k)-69*Math.pow(10,+3)/72*Math.pow(10,-5)*u1(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-69*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:07 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 5.917515639559105 -->> Avg.: 6.3552146298797965 -->> Std. Dev.: 1.3546995106821254
+Aug 31, 2024 7:04:07 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.915731822057849; Expression=u7(k)-u5(k)-76*Math.pow(10,+3)/72*Math.pow(10,-5)*u1(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)-76*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(1,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:07 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.296198111307668; Expression=u7(k)-u5(k)*69*Math.pow(10,+3)/72*Math.pow(10,-5)*u7(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*69*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(7,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:09 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.257309360537245; Expression=u7(k)-u5(k)*68*Math.pow(10,+3)/72*Math.pow(10,-5)*u7(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+3)/72*Math.pow(10,-5)*getVariable(7,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:21 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.257309360537244; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*u7(k)-u3(k)+u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:04:39 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 5.257309360537244 -->> Avg.: 5.881469774967156 -->> Std. Dev.: 0.3053663009660227
+Aug 31, 2024 7:05:14 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 5.257309360537244 -->> Avg.: 5.7212904532287565 -->> Std. Dev.: 0.36908311736983485
+Aug 31, 2024 7:05:32 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.232364288154991; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*u7(k)-u3(k)+22*Math.pow(10,-8)*46*Math.pow(10,+2)*u2(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+22*Math.pow(10,-8)*46*Math.pow(10,+2)*getVariable(2,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:05:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.120689623482085; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*u7(k)-u3(k)+22*Math.pow(10,-8)*17*Math.pow(10,+2)*u2(k)*87*Math.pow(10,-4)*u1(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+22*Math.pow(10,-8)*17*Math.pow(10,+2)*getVariable(2,k)*87*Math.pow(10,-4)*getVariable(1,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:05:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.0969520981838246; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*u7(k)-u3(k)+22*Math.pow(10,-8)*46*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+22*Math.pow(10,-8)*46*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:05:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.090525907878172; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*u7(k)-u3(k)+22*Math.pow(10,-8)*46*Math.pow(10,+2)*u7(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+22*Math.pow(10,-8)*46*Math.pow(10,+2)*getVariable(7,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:05:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.06040443967211; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*u7(k)-u3(k)+22*Math.pow(10,-8)*66*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+22*Math.pow(10,-8)*66*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:05:49 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.0478436178532; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*u7(k)-u3(k)+22*Math.pow(10,-8)*66*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u5(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/72*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+22*Math.pow(10,-8)*66*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(5,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:05:51 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 5.0478436178532 -->> Avg.: 5.550490140074845 -->> Std. Dev.: 0.3743318938536778
+Aug 31, 2024 7:05:55 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.913043425164177; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/67*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*46*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/67*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*46*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:06:01 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.843822859312395; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/66*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*46*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/66*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*46*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:06:11 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.842980516819816; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/66*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*46*Math.pow(10,+2)*u1(k)*85*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/66*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*46*Math.pow(10,+2)*getVariable(1,k)*85*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:06:19 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.786236467358027; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*u1(k)*85*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*getVariable(1,k)*85*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:06:26 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.78240233133228; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*60*Math.pow(10,+2)*u1(k)*85*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*60*Math.pow(10,+2)*getVariable(1,k)*85*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:06:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.7790062230917405; Expression=u7(k)-u5(k)*68*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*60*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*68*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*60*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:06:40 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 4.7790062230917405 -->> Avg.: 5.3271726798636605 -->> Std. Dev.: 0.38431338410765653
+Aug 31, 2024 7:06:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.776972261391625; Expression=u7(k)-u5(k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*u1(k)*85*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*getVariable(1,k)*85*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:06:46 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.769685109237919; Expression=u7(k)-u5(k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:06:54 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.768629262486068; Expression=u7(k)-u5(k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+77*Math.pow(10,-8)*64*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+77*Math.pow(10,-8)*64*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:06:57 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.768254718278238; Expression=u7(k)-u5(k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*u1(k)*88*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*getVariable(1,k)*88*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:07:19 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.768162969495586; Expression=u7(k)-u5(k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+76*Math.pow(10,-8)*64*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+76*Math.pow(10,-8)*64*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:07:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.76810158743716; Expression=u7(k)-u5(k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*65*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(5,k)*69*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*65*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:07:55 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.735439183591944; Expression=u7(k)-u7(k)*22*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*u1(k)*88*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(7,k)*22*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*64*Math.pow(10,+2)*getVariable(1,k)*88*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:07:59 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.7333736390836165; Expression=u7(k)-u7(k)*22*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*65*Math.pow(10,+2)*u1(k)*87*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(7,k)*22*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*65*Math.pow(10,+2)*getVariable(1,k)*87*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+Aug 31, 2024 7:08:01 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 4.7333736390836165 -->> Avg.: 5.088560412496584 -->> Std. Dev.: 0.25719284119823616
+Aug 31, 2024 7:08:03 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.728572057210692; Expression=u7(k)-u7(k)*22*Math.pow(10,+6)/63*Math.pow(10,-8)*u7(k)-u3(k)+75*Math.pow(10,-8)*65*Math.pow(10,+2)*u1(k)*88*Math.pow(10,-4)*u3(k)*u5(k)*u8(k); Java Expression: getVariable(7,k)-getVariable(7,k)*22*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*65*Math.pow(10,+2)*getVariable(1,k)*88*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+
+Execution time: 347.837 seconds.
+
+
+
+@@;getVariable(7,k)-getVariable(7,k)*22*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*65*Math.pow(10,+2)*getVariable(1,k)*88*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k)
+
+
+
+Run #6
+========
+Aug 31, 2024 7:08:06 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=22.774144907064677; Expression=2*Math.pow(10,+3)/u4(k); Java Expression: 2*Math.pow(10,+3)/getVariable(4,k)
+Aug 31, 2024 7:08:06 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=22.15568172062666; Expression=53*Math.pow(10,-8)/u8(k)*u9(k)*u6(k)*u7(k)*u6(k); Java Expression: 53*Math.pow(10,-8)/getVariable(8,k)*getVariable(9,k)*getVariable(6,k)*getVariable(7,k)*getVariable(6,k)
+Aug 31, 2024 7:08:06 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u8(k)+u5(k); Java Expression: getVariable(8,k)+getVariable(5,k)
+Aug 31, 2024 7:08:07 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.802980697300695; Expression=33*Math.pow(10,-2)*u7(k); Java Expression: 33*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 7:08:21 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.780883602472543; Expression=31*Math.pow(10,-2)*u7(k); Java Expression: 31*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 7:08:22 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.709785324194373; Expression=32*Math.pow(10,-2)*u7(k); Java Expression: 32*Math.pow(10,-2)*getVariable(7,k)
+Aug 31, 2024 7:09:06 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 1.8282180330659677E11 -->> Std. Dev.: 2.0323172717111663E12
+Aug 31, 2024 7:10:13 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 6.709785324194373 -->> Avg.: 227096.37456974178 -->> Std. Dev.: 1232082.3930786385
+Aug 31, 2024 7:10:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.579887333973399; Expression=32*Math.pow(10,-2)*u7(k)+u8(k); Java Expression: 32*Math.pow(10,-2)*getVariable(7,k)+getVariable(8,k)
+Aug 31, 2024 7:10:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.405015834140299; Expression=30*Math.pow(10,-2)*u7(k)+u8(k); Java Expression: 30*Math.pow(10,-2)*getVariable(7,k)+getVariable(8,k)
+Aug 31, 2024 7:11:21 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 6.405015834140299 -->> Avg.: 64.16459432531933 -->> Std. Dev.: 191.35799771771912
+Aug 31, 2024 7:12:34 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 6.405015834140299 -->> Avg.: 12.102843953270664 -->> Std. Dev.: 11.274736200642979
+Aug 31, 2024 7:12:59 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.405015834140298; Expression=3*Math.pow(10,-1)*u7(k)+u8(k); Java Expression: 3*Math.pow(10,-1)*getVariable(7,k)+getVariable(8,k)
+Aug 31, 2024 7:13:39 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 6.405015834140298 -->> Avg.: 6.726578322376436 -->> Std. Dev.: 1.1339017106358567
+Aug 31, 2024 7:13:57 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 6.405015834140298 -->> Avg.: 6.480676492478002 -->> Std. Dev.: 0.12917169743293447
+Aug 31, 2024 7:14:16 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 6.405015834140298 -->> Avg.: 6.421151201451815 -->> Std. Dev.: 0.06321097755338549
+Aug 31, 2024 7:14:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427487837859; Expression=u8(k)*u7(k)/u8(k)-u5(k)-u4(k); Java Expression: getVariable(8,k)*getVariable(7,k)/getVariable(8,k)-getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 7:14:36 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 6.077427487837859 -->> Avg.: 6.397977803262707 -->> Std. Dev.: 0.04752103048572033
+Aug 31, 2024 7:14:44 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427487837858; Expression=u8(k)+u7(k)-u8(k)-u5(k)-u4(k); Java Expression: getVariable(8,k)+getVariable(7,k)-getVariable(8,k)-getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 7:14:50 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427487837857; Expression=u5(k)+u7(k)-u5(k)-u5(k)-u4(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 7:14:59 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 6.077427487837857 -->> Avg.: 6.3339957043755115 -->> Std. Dev.: 0.13505302613356257
+Aug 31, 2024 7:15:12 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.021020568058478; Expression=u5(k)+u7(k)-u5(k)-u4(k)-37*Math.pow(10,-8)*u7(k)-u9(k)/u5(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)*getVariable(7,k)-getVariable(9,k)/getVariable(5,k)-getVariable(5,k)
+Aug 31, 2024 7:15:13 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.01818100470472; Expression=u5(k)+u7(k)-u5(k)-u4(k)-37*Math.pow(10,-5)*u7(k)-u9(k)/u5(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-5)*getVariable(7,k)-getVariable(9,k)/getVariable(5,k)-getVariable(5,k)
+Aug 31, 2024 7:15:13 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.94932213142916; Expression=u5(k)+u7(k)-u5(k)-u4(k)-37*Math.pow(10,-8)*u7(k)-u4(k)/u5(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)*getVariable(7,k)-getVariable(4,k)/getVariable(5,k)-getVariable(5,k)
+Aug 31, 2024 7:15:14 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.938280212659948; Expression=u5(k)+u7(k)-u5(k)-u4(k)-37*Math.pow(10,-8)*u7(k)-u9(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)*getVariable(7,k)-getVariable(9,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:15 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.93308910473186; Expression=u5(k)+u7(k)-u5(k)-u4(k)-37*Math.pow(10,-8)*u7(k)-u3(k)/u5(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)/getVariable(5,k)-getVariable(5,k)
+Aug 31, 2024 7:15:15 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.8811388523414; Expression=u5(k)+u7(k)-u5(k)-u4(k)-37*Math.pow(10,-8)*u7(k)-u1(k)/u5(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)*getVariable(7,k)-getVariable(1,k)/getVariable(5,k)-getVariable(5,k)
+Aug 31, 2024 7:15:15 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.881133703916213; Expression=u5(k)+u7(k)-u5(k)-u4(k)-37*Math.pow(10,-8)/u7(k)-u1(k)/u5(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)/getVariable(7,k)-getVariable(1,k)/getVariable(5,k)-getVariable(5,k)
+Aug 31, 2024 7:15:16 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.809063882958703; Expression=u5(k)+u7(k)-u5(k)-u4(k)-37*Math.pow(10,-8)/u7(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)/getVariable(7,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.809063882255554; Expression=u5(k)+u7(k)-u5(k)-u4(k)-2*Math.pow(10,-8)/u7(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-2*Math.pow(10,-8)/getVariable(7,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:20 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.809063882237656; Expression=u5(k)+u7(k)-u5(k)-u4(k)-2*Math.pow(10,-8)/u2(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-2*Math.pow(10,-8)/getVariable(2,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:20 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.809063882175184; Expression=u5(k)+u7(k)-u5(k)-u4(k)+2*Math.pow(10,-8)/u7(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)+2*Math.pow(10,-8)/getVariable(7,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:21 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.809063882100781; Expression=u5(k)+u7(k)-u5(k)-u4(k)+2*Math.pow(10,-8)/u5(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)+2*Math.pow(10,-8)/getVariable(5,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:21 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.809063880583215; Expression=u5(k)+u7(k)-u5(k)-u4(k)+2*Math.pow(10,-8)/u8(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)+2*Math.pow(10,-8)/getVariable(8,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:22 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.80905986422321; Expression=u5(k)+u7(k)-u5(k)-u4(k)+2*Math.pow(10,-3)/u7(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)+2*Math.pow(10,-3)/getVariable(7,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.805824997047915; Expression=57*Math.pow(10,-2)/u5(k)-u4(k)-37*Math.pow(10,-8)+u7(k)-u1(k)/u9(k)-u5(k); Java Expression: 57*Math.pow(10,-2)/getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)+getVariable(7,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.805824871139296; Expression=57*Math.pow(10,-2)/u5(k)-u4(k)+37*Math.pow(10,-8)+u7(k)-u1(k)/u9(k)-u5(k); Java Expression: 57*Math.pow(10,-2)/getVariable(5,k)-getVariable(4,k)+37*Math.pow(10,-8)+getVariable(7,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.7948136607592815; Expression=u5(k)+u7(k)-u5(k)-u4(k)+2*Math.pow(10,-1)/u8(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)+2*Math.pow(10,-1)/getVariable(8,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:26 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.743183593597174; Expression=u5(k)+u7(k)-u5(k)-u4(k)+2*Math.pow(10,-2)*u5(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)+2*Math.pow(10,-2)*getVariable(5,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.7311383719101; Expression=u5(k)+u7(k)-u5(k)-u4(k)+2*Math.pow(10,-2)*u4(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)+2*Math.pow(10,-2)*getVariable(4,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+Aug 31, 2024 7:15:28 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 5.7311383719101 -->> Avg.: 6.2455119570968645 -->> Std. Dev.: 0.20348554475597883
+Aug 31, 2024 7:15:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.672883744216434; Expression=u5(k)+u7(k)-u5(k)-u4(k)-37*Math.pow(10,-8)+u8(k)-u1(k)/u9(k)-u5(k); Java Expression: getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)+getVariable(8,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+
+Execution time: 444.467 seconds.
+
+
+
+@@;getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)+getVariable(8,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k)
+
+
+
+Run #7
+========
+Aug 31, 2024 7:15:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=207.39551340505403; Expression=u9(k)-u1(k)/u4(k)+u4(k)+u2(k); Java Expression: getVariable(9,k)-getVariable(1,k)/getVariable(4,k)+getVariable(4,k)+getVariable(2,k)
+Aug 31, 2024 7:15:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=29.96001186567818; Expression=u2(k)/u4(k); Java Expression: getVariable(2,k)/getVariable(4,k)
+Aug 31, 2024 7:15:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=14.230062351369877; Expression=u9(k)-u2(k)/u6(k); Java Expression: getVariable(9,k)-getVariable(2,k)/getVariable(6,k)
+Aug 31, 2024 7:15:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=12.308420800774634; Expression=47*Math.pow(10,-8)/5*Math.pow(10,+3)/34*Math.pow(10,+6)/u3(k)/u3(k)/u4(k)+u3(k); Java Expression: 47*Math.pow(10,-8)/5*Math.pow(10,+3)/34*Math.pow(10,+6)/getVariable(3,k)/getVariable(3,k)/getVariable(4,k)+getVariable(3,k)
+Aug 31, 2024 7:15:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.330471378133048; Expression=u5(k)*u4(k)/u4(k); Java Expression: getVariable(5,k)*getVariable(4,k)/getVariable(4,k)
+Aug 31, 2024 7:15:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u5(k)+u8(k); Java Expression: getVariable(5,k)+getVariable(8,k)
+Aug 31, 2024 7:15:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077429797792062; Expression=30*Math.pow(10,-5)/u9(k)+u7(k)-u4(k)-u5(k); Java Expression: 30*Math.pow(10,-5)/getVariable(9,k)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:15:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077429330474785; Expression=30*Math.pow(10,-5)/u5(k)+u7(k)-u4(k)-u5(k); Java Expression: 30*Math.pow(10,-5)/getVariable(5,k)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:15:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077429019174275; Expression=30*Math.pow(10,-5)/u3(k)+u7(k)-u4(k)-u5(k); Java Expression: 30*Math.pow(10,-5)/getVariable(3,k)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:15:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077428070919508; Expression=30*Math.pow(10,-5)/u1(k)+u7(k)-u4(k)-u5(k); Java Expression: 30*Math.pow(10,-5)/getVariable(1,k)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:15:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427718832642; Expression=30*Math.pow(10,-6)/u9(k)+u7(k)-u4(k)-u5(k); Java Expression: 30*Math.pow(10,-6)/getVariable(9,k)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:15:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427487990992; Expression=30*Math.pow(10,-9)/u3(k)+u7(k)-u4(k)-u5(k); Java Expression: 30*Math.pow(10,-9)/getVariable(3,k)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:15:37 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427487848064; Expression=2*Math.pow(10,-9)/u3(k)+u7(k)-u4(k)-u5(k); Java Expression: 2*Math.pow(10,-9)/getVariable(3,k)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:15:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427487840332; Expression=2*Math.pow(10,-9)/u2(k)+u7(k)-u4(k)-u5(k); Java Expression: 2*Math.pow(10,-9)/getVariable(2,k)+getVariable(7,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:15:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.026729128190279; Expression=96*Math.pow(10,+3)/u2(k)*u6(k)/u2(k)/92*Math.pow(10,+1)-u9(k)/u5(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(6,k)/getVariable(2,k)/92*Math.pow(10,+1)-getVariable(9,k)/getVariable(5,k)
+Aug 31, 2024 7:15:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.6726107672534845; Expression=96*Math.pow(10,+3)/u2(k)*u6(k)/u2(k)/97*Math.pow(10,+1)-u9(k)/u5(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(6,k)/getVariable(2,k)/97*Math.pow(10,+1)-getVariable(9,k)/getVariable(5,k)
+Aug 31, 2024 7:15:41 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.6544828732377646; Expression=96*Math.pow(10,+3)/u2(k)*u6(k)/u2(k)/97*Math.pow(10,+1)-u4(k)/u5(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(6,k)/getVariable(2,k)/97*Math.pow(10,+1)-getVariable(4,k)/getVariable(5,k)
+Aug 31, 2024 7:15:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.64236297559747; Expression=96*Math.pow(10,+3)/u2(k)*u6(k)/u2(k)/97*Math.pow(10,+1)-u5(k)/u5(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(6,k)/getVariable(2,k)/97*Math.pow(10,+1)-getVariable(5,k)/getVariable(5,k)
+Aug 31, 2024 7:15:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.6395023191775735; Expression=96*Math.pow(10,+3)/u2(k)*u6(k)/u2(k)/97*Math.pow(10,+1)-u5(k)/u3(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(6,k)/getVariable(2,k)/97*Math.pow(10,+1)-getVariable(5,k)/getVariable(3,k)
+Aug 31, 2024 7:15:46 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.637579807729427; Expression=96*Math.pow(10,+3)/u2(k)*u6(k)/u2(k)/97*Math.pow(10,+1)-u1(k)/u3(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(6,k)/getVariable(2,k)/97*Math.pow(10,+1)-getVariable(1,k)/getVariable(3,k)
+Aug 31, 2024 7:15:48 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.609669384876537; Expression=96*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/97*Math.pow(10,+1)-u1(k)/u3(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/97*Math.pow(10,+1)-getVariable(1,k)/getVariable(3,k)
+Aug 31, 2024 7:15:49 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.013778402004963; Expression=96*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/97*Math.pow(10,+1)-u2(k)/u3(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/97*Math.pow(10,+1)-getVariable(2,k)/getVariable(3,k)
+Aug 31, 2024 7:15:52 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 5.013778402004963 -->> Avg.: 8.164257248560541E11 -->> Std. Dev.: 8.934096204566E12
+Aug 31, 2024 7:15:54 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.978966597188575; Expression=96*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/97*Math.pow(10,+1)-u2(k)/u4(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/97*Math.pow(10,+1)-getVariable(2,k)/getVariable(4,k)
+Aug 31, 2024 7:15:56 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.977128290184763; Expression=96*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/96*Math.pow(10,+1)-u2(k)/u4(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/96*Math.pow(10,+1)-getVariable(2,k)/getVariable(4,k)
+Aug 31, 2024 7:16:15 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.835562395869893; Expression=96*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/96*Math.pow(10,+1)-u2(k)/u8(k)/u4(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/96*Math.pow(10,+1)-getVariable(2,k)/getVariable(8,k)/getVariable(4,k)
+Aug 31, 2024 7:16:15 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.65680237443779; Expression=96*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/96*Math.pow(10,+1)-u2(k)/u8(k)/u5(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/96*Math.pow(10,+1)-getVariable(2,k)/getVariable(8,k)/getVariable(5,k)
+Aug 31, 2024 7:16:18 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.620879028106222; Expression=93*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/96*Math.pow(10,+1)-u2(k)/u8(k)/u4(k); Java Expression: 93*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/96*Math.pow(10,+1)-getVariable(2,k)/getVariable(8,k)/getVariable(4,k)
+Aug 31, 2024 7:16:20 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.542393283575187; Expression=93*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/96*Math.pow(10,+1)-u2(k)/u8(k)/u5(k); Java Expression: 93*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/96*Math.pow(10,+1)-getVariable(2,k)/getVariable(8,k)/getVariable(5,k)
+Aug 31, 2024 7:16:23 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 4.542393283575187 -->> Avg.: 270010.36898138607 -->> Std. Dev.: 1364665.5960155954
+Aug 31, 2024 7:16:32 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.541215956327044; Expression=96*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/99*Math.pow(10,+1)-u2(k)/u8(k)/u5(k); Java Expression: 96*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/99*Math.pow(10,+1)-getVariable(2,k)/getVariable(8,k)/getVariable(5,k)
+Aug 31, 2024 7:17:01 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 4.541215956327044 -->> Avg.: 66.02228570380133 -->> Std. Dev.: 208.73242684978803
+Aug 31, 2024 7:17:43 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 4.541215956327044 -->> Avg.: 11.089435768884751 -->> Std. Dev.: 12.121833546259547
+Aug 31, 2024 7:18:25 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 4.541215956327044 -->> Avg.: 5.210741562407943 -->> Std. Dev.: 1.7319734541677316
+Aug 31, 2024 7:19:17 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 4.541215956327044 -->> Avg.: 4.6217340389371415 -->> Std. Dev.: 0.16978800889644954
+Aug 31, 2024 7:20:45 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 4.541215956327044 -->> Avg.: 4.541670671788075 -->> Std. Dev.: 0.005713147156478584
+Aug 31, 2024 7:21:20 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.540375372864503; Expression=33*Math.pow(10,+3)/u2(k)*u7(k)/u2(k)/34*Math.pow(10,+1)-u2(k)/u8(k)/u5(k); Java Expression: 33*Math.pow(10,+3)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/34*Math.pow(10,+1)-getVariable(2,k)/getVariable(8,k)/getVariable(5,k)
+Aug 31, 2024 7:22:19 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 4.540375372864503 -->> Avg.: 4.541115808687952 -->> Std. Dev.: 2.7244336171991247E-4
+Aug 31, 2024 7:22:59 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4.540375372864502; Expression=33*Math.pow(10,+2)/u2(k)*u7(k)/u2(k)/34*Math.pow(10,+2)-u2(k)/u8(k)/u5(k); Java Expression: 33*Math.pow(10,+2)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/34*Math.pow(10,+2)-getVariable(2,k)/getVariable(8,k)/getVariable(5,k)
+Aug 31, 2024 7:23:44 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 4.540375372864502 -->> Avg.: 4.540951632230424 -->> Std. Dev.: 3.904716775578362E-4
+Aug 31, 2024 7:24:24 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 4.540375372864502 -->> Avg.: 4.540787455772897 -->> Std. Dev.: 4.2041689116540694E-4
+
+Execution time: 536.399 seconds.
+
+
+
+@@;33*Math.pow(10,+2)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/34*Math.pow(10,+2)-getVariable(2,k)/getVariable(8,k)/getVariable(5,k)
+
+
+
+Run #8
+========
+Aug 31, 2024 7:24:26 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=1399927.3307192035; Expression=14*Math.pow(10,+5)-u3(k); Java Expression: 14*Math.pow(10,+5)-getVariable(3,k)
+Aug 31, 2024 7:24:26 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=33.41418600660889; Expression=u5(k)/u4(k); Java Expression: getVariable(5,k)/getVariable(4,k)
+Aug 31, 2024 7:24:26 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=33.32701840980393; Expression=u2(k)/u2(k); Java Expression: getVariable(2,k)/getVariable(2,k)
+Aug 31, 2024 7:24:26 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=19.115505879688893; Expression=u1(k)-u3(k); Java Expression: getVariable(1,k)-getVariable(3,k)
+Aug 31, 2024 7:24:26 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u8(k)+u5(k); Java Expression: getVariable(8,k)+getVariable(5,k)
+Aug 31, 2024 7:24:27 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.403135384692371; Expression=16*Math.pow(10,+1)/u2(k)*u5(k); Java Expression: 16*Math.pow(10,+1)/getVariable(2,k)*getVariable(5,k)
+Aug 31, 2024 7:24:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.293818213588942; Expression=17*Math.pow(10,+1)/u2(k)*u5(k); Java Expression: 17*Math.pow(10,+1)/getVariable(2,k)*getVariable(5,k)
+Aug 31, 2024 7:24:45 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 7.293818213588942 -->> Avg.: 9.656679188817642E10 -->> Std. Dev.: 7.788112935078806E11
+Aug 31, 2024 7:24:47 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.213106321417953; Expression=4*Math.pow(10,+1)/u3(k)*u5(k); Java Expression: 4*Math.pow(10,+1)/getVariable(3,k)*getVariable(5,k)
+Aug 31, 2024 7:24:49 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.0563386166067925; Expression=4*Math.pow(10,+1)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:03 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 7.0563386166067925 -->> Avg.: 380969.0633287808 -->> Std. Dev.: 1890385.3776142173
+Aug 31, 2024 7:25:21 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 7.0563386166067925 -->> Avg.: 117.51984423709625 -->> Std. Dev.: 438.0435677893702
+Aug 31, 2024 7:25:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.056338616444262; Expression=4*Math.pow(10,+1)-23*Math.pow(10,-8)/u4(k)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-23*Math.pow(10,-8)/getVariable(4,k)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.0563385694749226; Expression=4*Math.pow(10,+1)-23*Math.pow(10,-8)/u8(k)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-23*Math.pow(10,-8)/getVariable(8,k)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.055972327402282; Expression=4*Math.pow(10,+1)-54*Math.pow(10,-2)/u4(k)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-54*Math.pow(10,-2)/getVariable(4,k)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.055864722788012; Expression=4*Math.pow(10,+1)-54*Math.pow(10,-2)/u3(k)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-54*Math.pow(10,-2)/getVariable(3,k)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.051646607879193; Expression=4*Math.pow(10,+1)-23*Math.pow(10,-3)/u8(k)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-23*Math.pow(10,-3)/getVariable(8,k)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.964674979810735; Expression=4*Math.pow(10,+1)-23*Math.pow(10,-3)+u8(k)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-23*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.808052097412458; Expression=4*Math.pow(10,+1)-23*Math.pow(10,-1)/u8(k)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-23*Math.pow(10,-1)/getVariable(8,k)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.732600420990402; Expression=4*Math.pow(10,+1)-23*Math.pow(10,-1)+u8(k)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-23*Math.pow(10,-1)+getVariable(8,k)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:35 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.718297812264413; Expression=4*Math.pow(10,+1)-19*Math.pow(10,-1)+u8(k)-u3(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-19*Math.pow(10,-1)+getVariable(8,k)-getVariable(3,k)+getVariable(5,k)
+Aug 31, 2024 7:25:39 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 6.718297812264413 -->> Avg.: 13.059485605088224 -->> Std. Dev.: 12.164964295228165
+Aug 31, 2024 7:25:58 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.718297812264412; Expression=4*Math.pow(10,+1)-19*Math.pow(10,-1)+u5(k)-u3(k)+u8(k); Java Expression: 4*Math.pow(10,+1)-19*Math.pow(10,-1)+getVariable(5,k)-getVariable(3,k)+getVariable(8,k)
+Aug 31, 2024 7:26:02 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.438866440654187; Expression=4*Math.pow(10,+1)-52*Math.pow(10,-1)/u8(k)-u4(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-52*Math.pow(10,-1)/getVariable(8,k)-getVariable(4,k)+getVariable(5,k)
+Aug 31, 2024 7:26:03 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 6.438866440654187 -->> Avg.: 7.249521341936681 -->> Std. Dev.: 1.3930441016228587
+Aug 31, 2024 7:26:05 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.432791093195808; Expression=4*Math.pow(10,+1)-57*Math.pow(10,-1)/u8(k)-u4(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-57*Math.pow(10,-1)/getVariable(8,k)-getVariable(4,k)+getVariable(5,k)
+Aug 31, 2024 7:26:09 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.432393145765091; Expression=4*Math.pow(10,+1)-55*Math.pow(10,-1)/u8(k)-u4(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-55*Math.pow(10,-1)/getVariable(8,k)-getVariable(4,k)+getVariable(5,k)
+Aug 31, 2024 7:26:15 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.432120553744158; Expression=4*Math.pow(10,+1)-56*Math.pow(10,-1)/u8(k)-u4(k)+u5(k); Java Expression: 4*Math.pow(10,+1)-56*Math.pow(10,-1)/getVariable(8,k)-getVariable(4,k)+getVariable(5,k)
+Aug 31, 2024 7:26:28 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 6.432120553744158 -->> Avg.: 6.857595316717531 -->> Std. Dev.: 0.266136247546346
+Aug 31, 2024 7:26:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.992388998275767; Expression=u7(k)+u4(k)*19*Math.pow(10,-9)+u8(k)-u3(k)-u5(k); Java Expression: getVariable(7,k)+getVariable(4,k)*19*Math.pow(10,-9)+getVariable(8,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 7:26:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.992388946645488; Expression=u7(k)+u4(k)/19*Math.pow(10,-9)+u8(k)-u3(k)-u5(k); Java Expression: getVariable(7,k)+getVariable(4,k)/19*Math.pow(10,-9)+getVariable(8,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 7:26:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.992388894728463; Expression=u7(k)-u4(k)*19*Math.pow(10,-9)+u8(k)-u3(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(4,k)*19*Math.pow(10,-9)+getVariable(8,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 7:26:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.982063974518673; Expression=u7(k)-u4(k)*19*Math.pow(10,-3)+u8(k)-u3(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(4,k)*19*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 7:26:32 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.980536963638324; Expression=u7(k)-u4(k)*18*Math.pow(10,-3)+u8(k)-u3(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(4,k)*18*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 7:26:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.97817249565835; Expression=u7(k)-u4(k)*16*Math.pow(10,-3)+u8(k)-u3(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(4,k)*16*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 7:26:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.962996220029264; Expression=u7(k)-u5(k)*19*Math.pow(10,-3)+u8(k)-u3(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(5,k)*19*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 7:26:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.945583460984703; Expression=u7(k)-u1(k)*19*Math.pow(10,-3)+u8(k)-u3(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(1,k)*19*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 7:26:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9378210985159505; Expression=u7(k)-u1(k)*18*Math.pow(10,-3)+u8(k)-u3(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(1,k)*18*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k)-getVariable(5,k)
+Aug 31, 2024 7:26:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.902372226447783; Expression=u7(k)-u1(k)*18*Math.pow(10,-3)+u8(k)-u4(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(1,k)*18*Math.pow(10,-3)+getVariable(8,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:26:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.629908060982386; Expression=u7(k)-u1(k)*37*Math.pow(10,-3)+u8(k)-u4(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(1,k)*37*Math.pow(10,-3)+getVariable(8,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:26:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.628498909852445; Expression=u7(k)-u1(k)*42*Math.pow(10,-3)+u8(k)-u4(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(1,k)*42*Math.pow(10,-3)+getVariable(8,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:26:44 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.625459561663982; Expression=u7(k)-u1(k)*40*Math.pow(10,-3)+u8(k)-u4(k)-u5(k); Java Expression: getVariable(7,k)-getVariable(1,k)*40*Math.pow(10,-3)+getVariable(8,k)-getVariable(4,k)-getVariable(5,k)
+Aug 31, 2024 7:26:58 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 5.625459561663982 -->> Avg.: 6.581404858399059 -->> Std. Dev.: 0.48576634734912905
+Aug 31, 2024 7:27:32 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 5.625459561663982 -->> Avg.: 6.301936292980546 -->> Std. Dev.: 0.540693007500642
+Aug 31, 2024 7:28:06 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 5.625459561663982 -->> Avg.: 6.0398884709709115 -->> Std. Dev.: 0.47200380703578015
+Aug 31, 2024 7:28:40 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 5.625459561663982 -->> Avg.: 5.826443500150517 -->> Std. Dev.: 0.34753982467046163
+
+Execution time: 255.662 seconds.
+
+
+
+@@;getVariable(7,k)-getVariable(1,k)*40*Math.pow(10,-3)+getVariable(8,k)-getVariable(4,k)-getVariable(5,k)
+
+
+
+Run #9
+========
+Aug 31, 2024 7:28:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=4269.166500920103; Expression=u4(k)-u6(k)+29*Math.pow(10,-2)/67*Math.pow(10,+6)+u5(k); Java Expression: getVariable(4,k)-getVariable(6,k)+29*Math.pow(10,-2)/67*Math.pow(10,+6)+getVariable(5,k)
+Aug 31, 2024 7:28:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=27.243694031897867; Expression=u1(k)-u5(k)+u8(k)/u9(k)-u4(k); Java Expression: getVariable(1,k)-getVariable(5,k)+getVariable(8,k)/getVariable(9,k)-getVariable(4,k)
+Aug 31, 2024 7:28:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=20.59712241098021; Expression=u1(k)-u5(k)-u8(k)+u8(k); Java Expression: getVariable(1,k)-getVariable(5,k)-getVariable(8,k)+getVariable(8,k)
+Aug 31, 2024 7:28:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.892275606035511; Expression=79*Math.pow(10,-3)-u8(k)+u5(k); Java Expression: 79*Math.pow(10,-3)-getVariable(8,k)+getVariable(5,k)
+Aug 31, 2024 7:28:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.037566583667516; Expression=u8(k)+u5(k); Java Expression: getVariable(8,k)+getVariable(5,k)
+Aug 31, 2024 7:28:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=8.033638612784754; Expression=u4(k)/u3(k)*u8(k)+u5(k); Java Expression: getVariable(4,k)/getVariable(3,k)*getVariable(8,k)+getVariable(5,k)
+Aug 31, 2024 7:28:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.926865636837925; Expression=u9(k)/u3(k)*u8(k)+u5(k); Java Expression: getVariable(9,k)/getVariable(3,k)*getVariable(8,k)+getVariable(5,k)
+Aug 31, 2024 7:28:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=7.899745778312764; Expression=u9(k)/u5(k)*u8(k)+u5(k); Java Expression: getVariable(9,k)/getVariable(5,k)*getVariable(8,k)+getVariable(5,k)
+Aug 31, 2024 7:28:55 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.131407434512215; Expression=u7(k)-u5(k)-u3(k); Java Expression: getVariable(7,k)-getVariable(5,k)-getVariable(3,k)
+Aug 31, 2024 7:28:57 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.077427487837859; Expression=u7(k)-u5(k)-u4(k); Java Expression: getVariable(7,k)-getVariable(5,k)-getVariable(4,k)
+Aug 31, 2024 7:29:04 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 10% performed ... -- Fitness info -->> Best: 6.077427487837859 -->> Avg.: 6.125463514457243E10 -->> Std. Dev.: 4.11524999293535E11
+Aug 31, 2024 7:29:20 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=6.058143099562466; Expression=u7(k)-u5(k)-u8(k)-u4(k); Java Expression: getVariable(7,k)-getVariable(5,k)-getVariable(8,k)-getVariable(4,k)
+Aug 31, 2024 7:29:24 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 20% performed ... -- Fitness info -->> Best: 6.058143099562466 -->> Avg.: 449949.851371151 -->> Std. Dev.: 2366785.4829542073
+Aug 31, 2024 7:29:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.992388946502078; Expression=u7(k)-u5(k)+u8(k)-u3(k); Java Expression: getVariable(7,k)-getVariable(5,k)+getVariable(8,k)-getVariable(3,k)
+Aug 31, 2024 7:29:46 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 30% performed ... -- Fitness info -->> Best: 5.992388946502078 -->> Avg.: 131.75450987867913 -->> Std. Dev.: 485.02795804759205
+Aug 31, 2024 7:30:12 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 40% performed ... -- Fitness info -->> Best: 5.992388946502078 -->> Avg.: 12.377068229247776 -->> Std. Dev.: 12.420543978297339
+Aug 31, 2024 7:30:36 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 50% performed ... -- Fitness info -->> Best: 5.992388946502078 -->> Avg.: 6.4724140280329605 -->> Std. Dev.: 1.4433109617053863
+Aug 31, 2024 7:31:00 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 60% performed ... -- Fitness info -->> Best: 5.992388946502078 -->> Avg.: 6.018483648354068 -->> Std. Dev.: 0.0364371732566928
+Aug 31, 2024 7:31:22 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.938288358246991; Expression=u7(k)-u5(k)+21*Math.pow(10,+1)/55*Math.pow(10,-3)/u5(k)-u4(k)-u6(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+1)/55*Math.pow(10,-3)/getVariable(5,k)-getVariable(4,k)-getVariable(6,k)/getVariable(6,k)
+Aug 31, 2024 7:31:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.93828435523401; Expression=u7(k)-u5(k)+21*Math.pow(10,+1)/55*Math.pow(10,-5)/u5(k)-u4(k)-u6(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+1)/55*Math.pow(10,-5)/getVariable(5,k)-getVariable(4,k)-getVariable(6,k)/getVariable(6,k)
+Aug 31, 2024 7:31:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.93828431521587; Expression=u7(k)-u5(k)+21*Math.pow(10,-1)/55*Math.pow(10,-5)/u5(k)-u4(k)-u6(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,-1)/55*Math.pow(10,-5)/getVariable(5,k)-getVariable(4,k)-getVariable(6,k)/getVariable(6,k)
+Aug 31, 2024 7:31:23 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.919667838764378; Expression=u7(k)-u5(k)+21*Math.pow(10,-1)/55*Math.pow(10,-5)/u5(k)-u4(k)-u7(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,-1)/55*Math.pow(10,-5)/getVariable(5,k)-getVariable(4,k)-getVariable(7,k)/getVariable(6,k)
+Aug 31, 2024 7:31:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.91966783839092; Expression=u7(k)-u5(k)-21*Math.pow(10,-1)/55*Math.pow(10,-5)/u5(k)-u4(k)-u7(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-21*Math.pow(10,-1)/55*Math.pow(10,-5)/getVariable(5,k)-getVariable(4,k)-getVariable(7,k)/getVariable(6,k)
+Aug 31, 2024 7:31:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.9095453716164705; Expression=u7(k)-u5(k)+21*Math.pow(10,-1)/55*Math.pow(10,-5)/u5(k)-u4(k)-u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,-1)/55*Math.pow(10,-5)/getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:31:25 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.809063880027845; Expression=u7(k)-u5(k)+21*Math.pow(10,-1)/55*Math.pow(10,-5)/u5(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,-1)/55*Math.pow(10,-5)/getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:26 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 70% performed ... -- Fitness info -->> Best: 5.809063880027845 -->> Avg.: 5.9999983784204876 -->> Std. Dev.: 0.028280620922206123
+Aug 31, 2024 7:31:26 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.808845249681179; Expression=u7(k)-u5(k)+21*Math.pow(10,+1)/55*Math.pow(10,-2)/u5(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+1)/55*Math.pow(10,-2)/getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:27 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.808784278713415; Expression=u7(k)-u5(k)+21*Math.pow(10,+1)/43*Math.pow(10,-2)/u5(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+1)/43*Math.pow(10,-2)/getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.80808710567671; Expression=u7(k)-u5(k)+94*Math.pow(10,+1)/55*Math.pow(10,-2)/u5(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+94*Math.pow(10,+1)/55*Math.pow(10,-2)/getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.784271609059045; Expression=u7(k)-u5(k)+21*Math.pow(10,+1)/43*Math.pow(10,-2)*u5(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+1)/43*Math.pow(10,-2)*getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.740954696354472; Expression=u7(k)-u5(k)+21*Math.pow(10,+1)/96*Math.pow(10,-2)*u5(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+1)/96*Math.pow(10,-2)*getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.731463414475745; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/43*Math.pow(10,-2)/u5(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/43*Math.pow(10,-2)/getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.729987830455886; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/43*Math.pow(10,-2)/u7(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/43*Math.pow(10,-2)/getVariable(7,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.726207468541311; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/45*Math.pow(10,-2)/u5(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/45*Math.pow(10,-2)/getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.684813206385945; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/17*Math.pow(10,-2)/u7(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/17*Math.pow(10,-2)/getVariable(7,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.676366430226917; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/17*Math.pow(10,-2)/u1(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/17*Math.pow(10,-2)/getVariable(1,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:37 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.670407288737529; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/18*Math.pow(10,-2)/u1(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/18*Math.pow(10,-2)/getVariable(1,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.663680140038216; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/25*Math.pow(10,-2)/u1(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/25*Math.pow(10,-2)/getVariable(1,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.661960190748668; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/22*Math.pow(10,-2)/u1(k)-u4(k)-u1(k)/u9(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/22*Math.pow(10,-2)/getVariable(1,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)
+Aug 31, 2024 7:31:58 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 80% performed ... -- Fitness info -->> Best: 5.661960190748668 -->> Avg.: 5.930624926152156 -->> Std. Dev.: 0.12231029256055956
+Aug 31, 2024 7:32:16 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.661751336222668; Expression=u7(k)-u5(k)+16*Math.pow(10,+4)/22*Math.pow(10,-2)/u1(k)-u4(k)-u1(k)/93*Math.pow(10,-1)*u5(k)+u3(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+16*Math.pow(10,+4)/22*Math.pow(10,-2)/getVariable(1,k)-getVariable(4,k)-getVariable(1,k)/93*Math.pow(10,-1)*getVariable(5,k)+getVariable(3,k)/getVariable(6,k)
+Aug 31, 2024 7:32:17 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.475716940024041; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-4)-u9(k)+u9(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-4)-getVariable(9,k)+getVariable(9,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:19 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.475698394963251; Expression=u7(k)-u5(k)+21*Math.pow(10,+1)/43*Math.pow(10,-2)/91*Math.pow(10,-4)-u9(k)+u9(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+1)/43*Math.pow(10,-2)/91*Math.pow(10,-4)-getVariable(9,k)+getVariable(9,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:20 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.475679832863963; Expression=u7(k)-u5(k)-21*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-4)-u9(k)+u9(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-21*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-4)-getVariable(9,k)+getVariable(9,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:20 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.389453677278334; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-4)-u9(k)/u9(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-4)-getVariable(9,k)/getVariable(9,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:22 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.389451941308239; Expression=u7(k)-u5(k)+81*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-4)-u9(k)/u9(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+81*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-4)-getVariable(9,k)/getVariable(9,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:22 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.389448265405728; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-3)-u9(k)/u9(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/22*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(9,k)/getVariable(9,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:22 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.389432180611301; Expression=u7(k)-u5(k)+81*Math.pow(10,+4)/22*Math.pow(10,-1)/91*Math.pow(10,-4)-u9(k)/u9(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+81*Math.pow(10,+4)/22*Math.pow(10,-1)/91*Math.pow(10,-4)-getVariable(9,k)/getVariable(9,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.389429312904163; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-3)-u9(k)/u9(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(9,k)/getVariable(9,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.368422165005673; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-3)-u9(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(9,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:27 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.368335031861017; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/61*Math.pow(10,-3)-u9(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/61*Math.pow(10,-3)-getVariable(9,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:28 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.365288547265731; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-u9(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(9,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.364953858276638; Expression=u7(k)-u5(k)+62*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-2)-u9(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+62*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-2)-getVariable(9,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:29 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.364528212210528; Expression=u7(k)-u5(k)+81*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-2)-u9(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+81*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-2)-getVariable(9,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:31 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.3644220143614065; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/2*Math.pow(10,-3)-u9(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/2*Math.pow(10,-3)-getVariable(9,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.362759370891141; Expression=u7(k)-u5(k)+21*Math.pow(10,+1)/55*Math.pow(10,-2)/2*Math.pow(10,-3)-u4(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+1)/55*Math.pow(10,-2)/2*Math.pow(10,-3)-getVariable(4,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.3521814574728594; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-3)-u3(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(3,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:36 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.346954084599498; Expression=u7(k)-u5(k)+21*Math.pow(10,+1)/5*Math.pow(10,-2)-91*Math.pow(10,-3)-u3(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+1)/5*Math.pow(10,-2)-91*Math.pow(10,-3)-getVariable(3,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:37 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.346587177901983; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/2*Math.pow(10,-3)-u3(k)/u5(k)-68*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/2*Math.pow(10,-3)-getVariable(3,k)/getVariable(5,k)-68*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.24781303945637; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:38 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 90% performed ... -- Fitness info -->> Best: 5.24781303945637 -->> Avg.: 5.83961580598567 -->> Std. Dev.: 0.20441633481461333
+Aug 31, 2024 7:32:38 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.24441646002346; Expression=u7(k)-u5(k)+10*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+10*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.2421181318111705; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-3)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)/5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:39 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.2419777825169485; Expression=u7(k)-u5(k)+21*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-5)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)+21*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-5)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:40 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.2385854350733; Expression=u7(k)-u5(k)-21*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-21*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:43 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.23783550760624; Expression=u7(k)-u5(k)-44*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-44*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:45 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.237779684246118; Expression=u7(k)-u5(k)-42*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-42*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:46 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.237749850109845; Expression=u7(k)-u5(k)-21*Math.pow(10,+4)*5*Math.pow(10,-2)/53*Math.pow(10,-3)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-21*Math.pow(10,+4)*5*Math.pow(10,-2)/53*Math.pow(10,-3)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:46 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.237737202532961; Expression=u7(k)-u5(k)-38*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-38*Math.pow(10,+4)*5*Math.pow(10,-2)/91*Math.pow(10,-3)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:32:53 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.237737142423138; Expression=u7(k)-u5(k)-21*Math.pow(10,+4)*5*Math.pow(10,-2)/50*Math.pow(10,-3)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-21*Math.pow(10,+4)*5*Math.pow(10,-2)/50*Math.pow(10,-3)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:07 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.2375354593782655; Expression=u7(k)-u5(k)-21*Math.pow(10,+4)*5*Math.pow(10,-5)/u1(k)/u8(k)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-21*Math.pow(10,+4)*5*Math.pow(10,-5)/getVariable(1,k)/getVariable(8,k)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:11 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.236110120087447; Expression=u7(k)-u5(k)-74*Math.pow(10,+4)*5*Math.pow(10,-5)/u1(k)/u8(k)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-74*Math.pow(10,+4)*5*Math.pow(10,-5)/getVariable(1,k)/getVariable(8,k)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:13 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.235038262257768; Expression=u7(k)-u5(k)-50*Math.pow(10,+4)*5*Math.pow(10,-5)/u1(k)/u8(k)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-50*Math.pow(10,+4)*5*Math.pow(10,-5)/getVariable(1,k)/getVariable(8,k)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:13 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.233341673631154; Expression=u7(k)-u5(k)-21*Math.pow(10,+4)*5*Math.pow(10,-5)/u5(k)/u8(k)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-21*Math.pow(10,+4)*5*Math.pow(10,-5)/getVariable(5,k)/getVariable(8,k)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:17 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.233145497846541; Expression=u7(k)-u5(k)-23*Math.pow(10,+4)*5*Math.pow(10,-5)/u5(k)/u8(k)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-23*Math.pow(10,+4)*5*Math.pow(10,-5)/getVariable(5,k)/getVariable(8,k)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:24 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.233057596245021; Expression=u7(k)-u5(k)-25*Math.pow(10,+4)*5*Math.pow(10,-5)/u5(k)/u8(k)-u2(k)/u5(k)-24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-25*Math.pow(10,+4)*5*Math.pow(10,-5)/getVariable(5,k)/getVariable(8,k)-getVariable(2,k)/getVariable(5,k)-24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.232625596679405; Expression=u7(k)-u5(k)-25*Math.pow(10,+4)*5*Math.pow(10,-5)/u5(k)/u8(k)-u2(k)/u5(k)-23*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-25*Math.pow(10,+4)*5*Math.pow(10,-5)/getVariable(5,k)/getVariable(8,k)-getVariable(2,k)/getVariable(5,k)-23*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:30 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.231108832278797; Expression=u7(k)-u5(k)-23*Math.pow(10,+4)*5*Math.pow(10,-5)/u5(k)/u8(k)-u6(k)/u5(k)*24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-23*Math.pow(10,+4)*5*Math.pow(10,-5)/getVariable(5,k)/getVariable(8,k)-getVariable(6,k)/getVariable(5,k)*24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:33 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.194713597361304; Expression=u7(k)-u5(k)-23*Math.pow(10,+4)*23*Math.pow(10,-5)/u5(k)/u8(k)-u6(k)/u5(k)*24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-23*Math.pow(10,+4)*23*Math.pow(10,-5)/getVariable(5,k)/getVariable(8,k)-getVariable(6,k)/getVariable(5,k)*24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:34 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.186107579453745; Expression=u7(k)-u5(k)-23*Math.pow(10,+4)*17*Math.pow(10,-5)/u5(k)/u8(k)-u6(k)/u5(k)*24*Math.pow(10,-1)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-23*Math.pow(10,+4)*17*Math.pow(10,-5)/getVariable(5,k)/getVariable(8,k)-getVariable(6,k)/getVariable(5,k)*24*Math.pow(10,-1)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:42 AM data.NormalizedDataTable evaluate
+INFO: Best FIT=5.185961558805193; Expression=u7(k)-u5(k)-23*Math.pow(10,+4)*17*Math.pow(10,-3)/u5(k)/u5(k)-u6(k)/u5(k)-24*Math.pow(10,-6)-u4(k)*u1(k)/u6(k); Java Expression: getVariable(7,k)-getVariable(5,k)-23*Math.pow(10,+4)*17*Math.pow(10,-3)/getVariable(5,k)/getVariable(5,k)-getVariable(6,k)/getVariable(5,k)-24*Math.pow(10,-6)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+Aug 31, 2024 7:33:42 AM jeco.core.algorithm.ga.SimpleGeneticAlgorithm execute
+INFO: 100% performed ... -- Fitness info -->> Best: 5.185961558805193 -->> Avg.: 5.691060921368545 -->> Std. Dev.: 0.2956475599881457
+
+Execution time: 1398.975 seconds.
+
+
+
+@@;getVariable(7,k)-getVariable(5,k)-23*Math.pow(10,+4)*17*Math.pow(10,-3)/getVariable(5,k)/getVariable(5,k)-getVariable(6,k)/getVariable(5,k)-24*Math.pow(10,-6)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k)
+
+
+
+
+ Execution report
+==================
+
+#Run;Obj.;Model;Time
+0;4.619221383871251;getVariable(8,k)-getVariable(2,k)*33*Math.pow(10,-4)*getVariable(7,k)+86*Math.pow(10,-4)+getVariable(7,k)-39*Math.pow(10,-2)*getVariable(3,k);466.197
+1;6.709785324194373;32*Math.pow(10,-2)*getVariable(7,k);236.504
+2;5.672883778061562;getVariable(8,k)-getVariable(5,k)-getVariable(4,k)-getVariable(1,k)/getVariable(9,k)+getVariable(7,k);366.293
+3;4.908118467711948;50*Math.pow(10,-4)/83*Math.pow(10,+4)*getVariable(7,k)+63*Math.pow(10,+1)/getVariable(1,k)-77*Math.pow(10,-6)*66*Math.pow(10,+5)/2*Math.pow(10,-3)+getVariable(8,k)-getVariable(3,k);328.968
+4;5.07138484437279;getVariable(3,k)/getVariable(7,k)-getVariable(1,k)*37*Math.pow(10,-2)+getVariable(7,k)-getVariable(3,k)-getVariable(7,k)/getVariable(3,k);486.96
+5;4.728572057210692;getVariable(7,k)-getVariable(7,k)*22*Math.pow(10,+6)/63*Math.pow(10,-8)*getVariable(7,k)-getVariable(3,k)+75*Math.pow(10,-8)*65*Math.pow(10,+2)*getVariable(1,k)*88*Math.pow(10,-4)*getVariable(3,k)*getVariable(5,k)*getVariable(8,k);347.837
+6;5.672883744216434;getVariable(5,k)+getVariable(7,k)-getVariable(5,k)-getVariable(4,k)-37*Math.pow(10,-8)+getVariable(8,k)-getVariable(1,k)/getVariable(9,k)-getVariable(5,k);444.467
+7;4.540375372864502;33*Math.pow(10,+2)/getVariable(2,k)*getVariable(7,k)/getVariable(2,k)/34*Math.pow(10,+2)-getVariable(2,k)/getVariable(8,k)/getVariable(5,k);536.399
+8;5.625459561663982;getVariable(7,k)-getVariable(1,k)*40*Math.pow(10,-3)+getVariable(8,k)-getVariable(4,k)-getVariable(5,k);255.662
+9;5.185961558805193;getVariable(7,k)-getVariable(5,k)-23*Math.pow(10,+4)*17*Math.pow(10,-3)/getVariable(5,k)/getVariable(5,k)-getVariable(6,k)/getVariable(5,k)-24*Math.pow(10,-6)-getVariable(4,k)*getVariable(1,k)/getVariable(6,k);1398.975
